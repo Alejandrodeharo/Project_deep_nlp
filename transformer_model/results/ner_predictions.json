@@ -1,0 +1,5430 @@
+[
+  {
+    "match_id": 184,
+    "home_team": "Mallorca",
+    "away_team": "Celtic",
+    "text": "The rhythm never really settled into something one-sided. Kyogo Furuhashi was the one to convert with 82 gone, the move itself built through wrapping up a diagonal attack with a very measured finish: The contest between Mallorca and Celtic at Son Moix was hard to pin to one script. Antonio Raillo picked up a yellow, the referee judging the challenge late enough to halt the move. Daizen Maeda made sure a threatening move did not become more than that in the later stages. The hosts had their moments, yet the game kept drifting away from them in the details.",
+    "sentiment": -1,
+    "entities": [
+      {
+        "text": "Mallorca",
+        "label": "TEAM"
+      },
+      {
+        "text": "Celtic",
+        "label": "TEAM"
+      },
+      {
+        "text": "Son Moix",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Antonio Raillo",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Kyogo Furuhashi",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Daizen Maeda",
+        "label": "PLAYER"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Kyogo Furuhashi",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Mallorca",
+        "label": "TEAM"
+      },
+      {
+        "text": "Celtic",
+        "label": "TEAM"
+      },
+      {
+        "text": "Son Moix",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Antonio Raillo",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Daizen Maeda",
+        "label": "PLAYER"
+      }
+    ]
+  },
+  {
+    "match_id": 185,
+    "home_team": "Bayer Leverkusen",
+    "away_team": "Arsenal",
+    "text": "Rather than one long spell of dominance, the evening was decided by short bursts and a few clean moments. The first swing of the evening came with 50 gone through Gabriel Jesus, the move itself built through straight from a turnover and the transition that followed. Jeremie Frimpong restored parity around minute 70, at the end of a neat combination around the box. There was very little static about the meeting between Bayer Leverkusen and Arsenal at BayArena — There was a booking as well: Declan Rice was cautioned for stopping the break with a late foul. Late on, Jeremie Frimpong still had time for an important defensive intervention. That left the match suspended in roughly the same equilibrium.",
+    "sentiment": 0,
+    "entities": [
+      {
+        "text": "Bayer Leverkusen",
+        "label": "TEAM"
+      },
+      {
+        "text": "Arsenal",
+        "label": "TEAM"
+      },
+      {
+        "text": "BayArena",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Declan Rice",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Jeremie Frimpong",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Gabriel Jesus",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Mikel Arteta",
+        "label": "COACH"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Gabriel Jesus",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Jeremie Frimpong",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Bayer",
+        "label": "TEAM"
+      },
+      {
+        "text": "Leverkusen",
+        "label": "TEAM"
+      },
+      {
+        "text": "Arsenal",
+        "label": "TEAM"
+      },
+      {
+        "text": "BayArena",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Declan Rice",
+        "label": "PLAYER"
+      }
+    ]
+  },
+  {
+    "match_id": 186,
+    "home_team": "Manchester United",
+    "away_team": "Eintracht Frankfurt",
+    "text": "Inside Old Trafford, Manchester United against Eintracht Frankfurt developed in starts and swerves rather than one straight line. Hugo Larsson also went into the book after a late challenge halted a transition: Neither side managed to impose one clear script for very long. Bruno Fernandes put the first real dent in the game with 19 gone; after possession was won back high. Marcus Rashford added another around minute 49, with the defense caught before it could reorganize on the break. From the home perspective, there was enough to admire and still a sense that a little more should have been made of it.",
+    "sentiment": 1,
+    "entities": [
+      {
+        "text": "Manchester United",
+        "label": "TEAM"
+      },
+      {
+        "text": "Eintracht Frankfurt",
+        "label": "TEAM"
+      },
+      {
+        "text": "Old Trafford",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Hugo Larsson",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Bruno Fernandes",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Marcus Rashford",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Erik ten Hag",
+        "label": "COACH"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Old Trafford",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Manchester United",
+        "label": "TEAM"
+      },
+      {
+        "text": "Eintracht Frankfurt",
+        "label": "TEAM"
+      },
+      {
+        "text": "Hugo Larsson",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Bruno Fernandes",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Marcus Rashford",
+        "label": "PLAYER"
+      }
+    ]
+  },
+  {
+    "match_id": 187,
+    "home_team": "Dinamo Zagreb",
+    "away_team": "Bayern Munich",
+    "text": "Territory and momentum moved around enough that the contest resisted a simple reading. The first swing of the evening came by minute 48 through Joshua Kimmich, the move itself built through with the defense caught before it could reorganize on the break: Jamal Musiala followed up again with 71 gone, straight from a turnover and the transition that followed; At Stadion Maksimir, Dinamo Zagreb and Bayern Munich produced a game whose shape kept changing. A yellow card went to Bruno Petkovic for breaking up play a shade too forcefully. From the home perspective, it was a night of decent spells without quite enough payoff.",
+    "sentiment": -1,
+    "entities": [
+      {
+        "text": "Dinamo Zagreb",
+        "label": "TEAM"
+      },
+      {
+        "text": "Bayern Munich",
+        "label": "TEAM"
+      },
+      {
+        "text": "Stadion Maksimir",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Bruno Petkovic",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Joshua Kimmich",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Jamal Musiala",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Martin Baturina",
+        "label": "PLAYER"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Joshua Kimmich",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Jamal Musiala",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Stadion Maksimir",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Dinamo Zagreb",
+        "label": "TEAM"
+      },
+      {
+        "text": "Bayern Munich",
+        "label": "TEAM"
+      },
+      {
+        "text": "Bruno Petkovic",
+        "label": "PLAYER"
+      }
+    ]
+  },
+  {
+    "match_id": 188,
+    "home_team": "PSV",
+    "away_team": "Real Madrid",
+    "text": "The final whistle at the Philips Stadion was merely the conclusion of a story written in the margins. PSV enjoyed an early spell of authority through Johan Bakayoko and Luuk de Jong, yet there was an underlying sense of dread every time Rodrygo or Vinicius Junior turned toward goal. The match’s true nature was hidden in the details—like when Bakayoko buckled under Rodrygo’s shadow. Even though De Jong managed a desperate recovery, the momentum had already shifted to Vinicius, who was already hunting for green grass. Joey Veerman functioned as the game’s stabilizer, alternating between a pressure valve and a defensive patch, while Peter Bosz paced the technical area, visibly distressed by a midfield that offered no resistance. Real Madrid’s loudest period of pressure, filled with the roar of a hopeful crowd, was less about the specific chaos in the box and more about a steady accumulation of weight. The game didn't shout its winner; instead, it slowly gravitated toward Real Madrid through a balance of power that only became clear once the full ninety minutes were tallied.",
+    "sentiment": -1,
+    "entities": [
+      {
+        "text": "PSV",
+        "label": "TEAM"
+      },
+      {
+        "text": "Real Madrid",
+        "label": "TEAM"
+      },
+      {
+        "text": "Philips Stadion",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Johan Bakayoko",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Luuk de Jong",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Rodrygo",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Vinicius Junior",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Joey Veerman",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Peter Bosz",
+        "label": "COACH"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Philips Stadion",
+        "label": "STADIUM"
+      },
+      {
+        "text": "PSV",
+        "label": "TEAM"
+      },
+      {
+        "text": "Johan Bakayoko",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Luuk de Jong",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Rodrygo",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Vinicius Junior",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Bakayoko",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Rodrygo’s",
+        "label": "PLAYER"
+      },
+      {
+        "text": "De",
+        "label": "TEAM"
+      },
+      {
+        "text": "Jong",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Vinicius",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Joey Veerman",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Peter Bosz",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Real Madrid’s",
+        "label": "TEAM"
+      },
+      {
+        "text": "Real Madrid",
+        "label": "TEAM"
+      }
+    ]
+  },
+  {
+    "match_id": 189,
+    "home_team": "Feyenoord",
+    "away_team": "Chelsea",
+    "text": "What unfolded in the closing moments at De Kuip between Feyenoord and Chelsea was less decisive than the subtle patterns that had shaped the match beforehand. Feyenoord initially controlled proceedings through Calvin Stengs and Mats Wieffer, but Chelsea carried greater threat whenever Enzo Fernández or Reece James managed to push transitions forward. A sequence initiated by Reece James briefly shifted momentum until Calvin Stengs tracked back over a long distance to recover; shortly after, Enzo Fernández and Mats Wieffer were again battling for a loose ball in the same area. Santiago Giménez was frequently involved in promising situations, though he never quite imposed himself fully on the game. On the sideline, Arne Slot continued to tweak his team’s positioning, visibly concerned by how easily the midfield structure was being broken. A pause due to refereeing decisions and a couple of lively set pieces created the impression that Chelsea had seized control, but that feeling didn’t fully reflect the balance of play. In the end, despite both teams having moments they could point to with frustration, neither Feyenoord nor Chelsea found the extra edge required to truly separate themselves from the other.",
+    "sentiment": 0,
+    "entities": [
+      {
+        "text": "Feyenoord",
+        "label": "TEAM"
+      },
+      {
+        "text": "Chelsea",
+        "label": "TEAM"
+      },
+      {
+        "text": "De Kuip",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Calvin Stengs",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Mats Wieffer",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Enzo Fernandez",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Reece James",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Santiago Gimenez",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Arne Slot",
+        "label": "COACH"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "De Kuip",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Feyenoord",
+        "label": "TEAM"
+      },
+      {
+        "text": "Chelsea",
+        "label": "TEAM"
+      },
+      {
+        "text": "Calvin Stengs",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Mats Wieffer",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Enzo Fernández",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Reece James",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Santiago Giménez",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Arne Slot",
+        "label": "PLAYER"
+      }
+    ]
+  },
+  {
+    "match_id": 190,
+    "home_team": "Manchester United",
+    "away_team": "Valencia",
+    "text": "The last ten minutes of the match between Manchester United and Valencia at Old Trafford do not tell the full story. Manchester United controllled through Bruno Fernandes and Casemiro, yet Valencia hurt with Hugo Duro or Pepelu in the next transition forward. A move started by Pepelu changed the field until Bruno Fernandes recovered forty yards; later Hugo Duro and Casemiro contested the ball in the same channel. Marcus Rashford appeared in promising passages but he did not fully own the match. Erik ten Hag was focused on remapping the press, due to  one transition that escaped the central lane. Manchester United and Valencia were left with fragments of control instead of command, the kind of evening in which the balance kept restoring itself.",
+    "sentiment": 0,
+    "entities": [
+      {
+        "text": "Manchester United",
+        "label": "TEAM"
+      },
+      {
+        "text": "Valencia",
+        "label": "TEAM"
+      },
+      {
+        "text": "Old Trafford",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Bruno Fernandes",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Casemiro",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Hugo Duro",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Pepelu",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Marcus Rashford",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Erik ten Hag",
+        "label": "COACH"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Manchester United",
+        "label": "TEAM"
+      },
+      {
+        "text": "Valencia",
+        "label": "TEAM"
+      },
+      {
+        "text": "Old Trafford",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Bruno Fernandes",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Casemiro",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Hugo Duro",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Pepelu",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Marcus Rashford",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Erik ten Hag",
+        "label": "PLAYER"
+      }
+    ]
+  },
+  {
+    "match_id": 191,
+    "home_team": "Wolverhampton Wanderers",
+    "away_team": "Leverkusen",
+    "text": "The game between Wolverhampton Wanderers and Leverkusen at Molineux Stadium kept changing, so the reading was not always correct. The host team pushed on, especially Max Kilman and Pedro Neto and briefly managed to pin Leverkusen deep, yet the more dangerous counters came through Florian Wirtz and then Granit Xhaka. One sequence had Max Kilman, Florian Wirtz, and Pedro Neto close to each other near the box; when the ball broke loose, Granit Xhaka became the outlet and the play had to be defended the other way. Mario Lemina stayed involved when the game accelerated, sometimes as the outlet, others as the recovery. Gary O’Neil adjusted the spacing from the touchline, because the midfield line was being bypassed easily. A rebound, a blocked shot, and a long stoppage made the Wolverhampton Wanderers look more in control than they actually were. The match did not show it clearly, but over ninety minutes the balance tilted toward Leverkusen.",
+    "sentiment": -1,
+    "entities": [
+      {
+        "text": "Wolverhampton Wanderers",
+        "label": "TEAM"
+      },
+      {
+        "text": "Leverkusen",
+        "label": "TEAM"
+      },
+      {
+        "text": "Molineux Stadium",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Max Kilman",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Pedro Neto",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Florian Wirtz",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Granit Xhaka",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Mario Lemina",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Gary O’Neil",
+        "label": "COACH"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Wolverhampton Wanderers",
+        "label": "TEAM"
+      },
+      {
+        "text": "Leverkusen",
+        "label": "TEAM"
+      },
+      {
+        "text": "Molineux Stadium",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Max Kilman",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Pedro Neto",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Florian Wirtz",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Granit Xhaka",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Mario Lemina",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Gary O’Neil",
+        "label": "PLAYER"
+      }
+    ]
+  },
+  {
+    "match_id": 192,
+    "home_team": "Inter",
+    "away_team": "Lille",
+    "text": "Seen from the final ten minutes alone, the match between Inter and Lille at San Siro would have given the wrong impression. Lille put together a sustained press led by Edon Zhegrova and backed by Jonathan David, but Inter found cleaner routes when Hakan Calhanoglu drifted near Marcus Thuram between the lines. In one tight sequence, Hakan Calhanoglu, Edon Zhegrova, and Marcus Thuram were all crowded near the box; when the loose ball broke, Jonathan David became the next outlet and the move had to be defended the other way. Nicolo Barella kept showing up in promising passages without ever fully taking over. Simone Inzaghi kept adjusting the spacing from the touchline, clearly uneasy with how easily the midfield line was being bypassed. The loudest stretch belonged to Lille, though the crowd read too much into what happened in the box. Once the frantic spells were separated from the decisive ones, the night leaned toward Inter because their best moments carried more weight.",
+    "sentiment": 1,
+    "entities": [
+      {
+        "text": "Inter",
+        "label": "TEAM"
+      },
+      {
+        "text": "Lille",
+        "label": "TEAM"
+      },
+      {
+        "text": "San Siro",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Hakan Calhanoglu",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Marcus Thuram",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Edon Zhegrova",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Jonathan David",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Nicolo Barella",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Simone Inzaghi",
+        "label": "COACH"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Inter",
+        "label": "TEAM"
+      },
+      {
+        "text": "Lille",
+        "label": "TEAM"
+      },
+      {
+        "text": "San Siro",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Edon Zhegrova",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Jonathan David",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Hakan Calhanoglu",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Marcus Thuram",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Nicolo Barella",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Simone Inzaghi",
+        "label": "PLAYER"
+      }
+    ]
+  },
+  {
+    "match_id": 193,
+    "home_team": "Aston Villa",
+    "away_team": "Liverpool",
+    "text": "The game between Aston Villa and Liverpool at Villa Park kept shifting, so the obvious reading was rarely the correct one. Villa pushed through John McGinn and Moussa Diaby and briefly pinned Liverpool back, though the sharper countering still ran through Darwin Nunez and then Mohamed Salah. In one tight sequence, John McGinn, Darwin Nunez, and Moussa Diaby were all crowded near the box; when the loose ball broke, Mohamed Salah became the next outlet and the play had to be defended the other way. Douglas Luiz stayed involved whenever the game sped up, sometimes as the outlet and sometimes as the cover. Unai Emery kept changing the spacing from the touchline, clearly uneasy with how easily the midfield line was being bypassed. The loudest stretch belonged to Aston Villa, although the decisions in the box during it were less decisive than the crowd believed. Even with Liverpool passing more cleanly at times in the second half, the key evidence built up for Aston Villa, who left Villa Park with the bigger reward.",
+    "sentiment": 1,
+    "entities": [
+      {
+        "text": "Aston Villa",
+        "label": "TEAM"
+      },
+      {
+        "text": "Liverpool",
+        "label": "TEAM"
+      },
+      {
+        "text": "Villa Park",
+        "label": "STADIUM"
+      },
+      {
+        "text": "John McGinn",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Moussa Diaby",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Darwin Nunez",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Mohamed Salah",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Douglas Luiz",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Unai Emery",
+        "label": "COACH"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Aston Villa",
+        "label": "TEAM"
+      },
+      {
+        "text": "Liverpool",
+        "label": "TEAM"
+      },
+      {
+        "text": "Villa Park",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Villa",
+        "label": "TEAM"
+      },
+      {
+        "text": "John McGinn",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Moussa Diaby",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Darwin Nunez",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Mohamed Salah",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Douglas Luiz",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Unai Emery",
+        "label": "PLAYER"
+      }
+    ]
+  },
+  {
+    "match_id": 194,
+    "home_team": "Bayern Munich",
+    "away_team": "Brentford",
+    "text": "At Allianz Arena, it was Igor Thiago who first made the game feel as if it were slipping away from Bayern Munich, even though the scoreboard still read 2-1 against Brentford. The visitors had been able to push high for several minutes, with Mathias Jensen and Igor Thiago driving that pressure, yet the clearest route still belonged to the hosts whenever Harry Kane drifted toward Joshua Kimmich in the central pocket. From the technical area, Vincent Kompany looked unhappy with how the midfield was being broken. A rebound and a delayed restart changed the feeling in the ground, but not the overall balance, which still leaned toward Bayern Munich.",
+    "sentiment": 1,
+    "entities": [
+      {
+        "text": "Bayern Munich",
+        "label": "TEAM"
+      },
+      {
+        "text": "Brentford",
+        "label": "TEAM"
+      },
+      {
+        "text": "Allianz Arena",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Igor Thiago",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Mathias Jensen",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Harry Kane",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Joshua Kimmich",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Vincent Kompany",
+        "label": "COACH"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Allianz Arena",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Igor Thiago",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Bayern Munich",
+        "label": "TEAM"
+      },
+      {
+        "text": "Brentford",
+        "label": "TEAM"
+      },
+      {
+        "text": "Mathias Jensen",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Harry Kane",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Joshua Kimmich",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Vincent Kompany",
+        "label": "PLAYER"
+      }
+    ]
+  },
+  {
+    "match_id": 195,
+    "home_team": "Sevilla",
+    "away_team": "Atletico Madrid",
+    "text": "Although Atletico Madrid had made the atmosphere rise at Ramón Sánchez-Pizjuán, especially after Antoine Griezmann forced the tempo and Pablo Barrios stepped onto second balls, the match had not really been bending their way. Sevilla kept finding cleaner progress through Saúl Ñíguez, who repeatedly moved near Isaac Romero between the lines. One recovery run by Saúl Ñíguez undid a promising phase almost by itself. Luis García Plaza, never still for long, continued adjusting the shape from the sideline. For all the noise and pressure, the evidence still pointed toward Sevilla.",
+    "sentiment": 1,
+    "entities": [
+      {
+        "text": "Sevilla",
+        "label": "TEAM"
+      },
+      {
+        "text": "Atletico Madrid",
+        "label": "TEAM"
+      },
+      {
+        "text": "Ramón Sánchez-Pizjuán",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Antoine Griezmann",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Pablo Barrios",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Saúl Ñíguez",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Isaac Romero",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Luis García Plaza",
+        "label": "COACH"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Atletico Madrid",
+        "label": "TEAM"
+      },
+      {
+        "text": "Ramón Sánchez-Pizjuán",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Antoine Griezmann",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Pablo Barrios",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Sevilla",
+        "label": "TEAM"
+      },
+      {
+        "text": "Saúl Ñíguez",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Isaac Romero",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Luis García Plaza",
+        "label": "PLAYER"
+      }
+    ]
+  },
+  {
+    "match_id": 196,
+    "home_team": "Manchester United",
+    "away_team": "Leeds",
+    "text": "Leeds dictates the energy at Old Trafford as a relentless high press led by Crysencio Summerville neutralizes the home side. This aggressive approach completely stifles Bruno Fernandes, leaving Manchester United’s build-up play in shambles. Even as tactical shifts are attempted from the bench, the visitors continue to carve through open lanes, ensuring the game is played entirely on their terms while the United attack remains largely peripheral.",
+    "sentiment": -1,
+    "entities": [
+      {
+        "text": "Manchester United",
+        "label": "TEAM"
+      },
+      {
+        "text": "Leeds",
+        "label": "TEAM"
+      },
+      {
+        "text": "Old Trafford",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Bruno Fernandes",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Marcus Rashford",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Crysencio Summerville",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Brenden Aaronson",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Erik ten Hag",
+        "label": "COACH"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Leeds",
+        "label": "TEAM"
+      },
+      {
+        "text": "Old Trafford",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Crysencio Summerville",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Bruno Fernandes",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Manchester United’s",
+        "label": "TEAM"
+      },
+      {
+        "text": "United",
+        "label": "TEAM"
+      }
+    ]
+  },
+  {
+    "match_id": 197,
+    "home_team": "PSG",
+    "away_team": "Liverpool",
+    "text": "Possession becomes a weapon in the hands of Luis Enrique, whose compact tactical setup denies Liverpool any room to breathe. By centering the play around Vitinha, PSG dictates a tempo that renders the opposition's attack largely invisible. Even as Darwin Núñez attempts to find a way through, the French champions stay composed, allowing Mbappé to capitalize on the resulting frustration and secure control over every decisive phase of the match.",
+    "sentiment": 1,
+    "entities": [
+      {
+        "text": "PSG",
+        "label": "TEAM"
+      },
+      {
+        "text": "Liverpool",
+        "label": "TEAM"
+      },
+      {
+        "text": "Parc des Princes",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Kylian Mbappé",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Vitinha",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Marco Asensio",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Mohamed Salah",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Darwin Núñez",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Luis Enrique",
+        "label": "COACH"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Luis Enrique",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Liverpool",
+        "label": "TEAM"
+      },
+      {
+        "text": "Vitinha",
+        "label": "PLAYER"
+      },
+      {
+        "text": "PSG",
+        "label": "TEAM"
+      },
+      {
+        "text": "Darwin Núñez",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Mbappé",
+        "label": "PLAYER"
+      }
+    ]
+  },
+  {
+    "match_id": 198,
+    "home_team": "Chelsea",
+    "away_team": "Lyon",
+    "text": "Late noise at Stamford Bridge almost obscured how the balance between Chelsea and Lyon had really been shaped. The hosts pushed on through Cole Palmer and Reece James and briefly pinned Lyon deep, though the more incisive countering pattern still ran through Alexandre Lacazette and then Maxence Caqueret. The most misleading moment came when Cole Palmer lost it under pressure from Alexandre Lacazette; Reece James rescued the phase, but Maxence Caqueret still carried the next attack into open grass. Enzo Fernandez kept appearing in promising passages without ever fully owning the match. Mauricio Pochettino kept adjusting the spacing from the touchline, clearly uneasy with how easily the midfield line was being bypassed. A refereeing pause and two noisy set pieces briefly made it seem as if Chelsea had taken command, but that impression overstated the spell. The crowd did not see a straightforward story, yet the fuller reading still belonged to Chelsea, whose key interventions weighed more heavily than the visitors’ longer spells.",
+    "sentiment": 1,
+    "entities": [
+      {
+        "text": "Chelsea",
+        "label": "TEAM"
+      },
+      {
+        "text": "Lyon",
+        "label": "TEAM"
+      },
+      {
+        "text": "Stamford Bridge",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Cole Palmer",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Reece James",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Alexandre Lacazette",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Maxence Caqueret",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Enzo Fernandez",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Mauricio Pochettino",
+        "label": "COACH"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Stamford Bridge",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Chelsea",
+        "label": "TEAM"
+      },
+      {
+        "text": "Lyon",
+        "label": "TEAM"
+      },
+      {
+        "text": "Cole Palmer",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Reece James",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Alexandre Lacazette",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Maxence Caqueret",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Enzo Fernandez",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Mauricio Pochettino",
+        "label": "COACH"
+      }
+    ]
+  },
+  {
+    "match_id": 199,
+    "home_team": "Atletico Madrid",
+    "away_team": "Everton",
+    "text": "The match between Atletico Madrid and Everton at Metropolitano Stadium resisted a tidy chronology, which is why the closing minutes were not the best place to judge it. Atletico Madrid had the earlier spell of control through Koke and Antoine Griezmann, yet Everton looked more dangerous whenever Dwight McNeil or James Tarkowski could turn the next transition forward. The most misleading moment came when Koke lost it under pressure from Dwight McNeil; Antoine Griezmann rescued the phase, but James Tarkowski still carried the next attack into open grass. Alvaro Morata remained involved whenever the game accelerated, sometimes as the outlet, sometimes as the emergency repair. Diego Simeone kept adjusting the spacing from the touchline, clearly uneasy with how easily the midfield line was being bypassed. The loudest stretch belonged to Everton, though the penalty-area decisions during it were less decisive than the crowd assumed. So although Everton had enough pressure to make the noise rise, the ledger, once every phase was considered, leaned toward Atletico Madrid.",
+    "sentiment": 1,
+    "entities": [
+      {
+        "text": "Atletico Madrid",
+        "label": "TEAM"
+      },
+      {
+        "text": "Everton",
+        "label": "TEAM"
+      },
+      {
+        "text": "Metropolitano Stadium",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Koke",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Antoine Griezmann",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Dwight McNeil",
+        "label": "PLAYER"
+      },
+      {
+        "text": "James Tarkowski",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Alvaro Morata",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Diego Simeone",
+        "label": "COACH"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Atletico Madrid",
+        "label": "TEAM"
+      },
+      {
+        "text": "Everton",
+        "label": "TEAM"
+      },
+      {
+        "text": "Metropolitano Stadium",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Koke",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Antoine Griezmann",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Dwight McNeil",
+        "label": "PLAYER"
+      },
+      {
+        "text": "James Tarkowski",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Alvaro Morata",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Diego Simeone",
+        "label": "PLAYER"
+      }
+    ]
+  },
+  {
+    "match_id": 200,
+    "home_team": "Feyenoord",
+    "away_team": "Villarreal",
+    "text": "Seen from the final ten minutes alone, the evening between Feyenoord and Villarreal at De Kuip would have told the wrong story. Although Villarreal enjoyed a sustained press led by Gerard Moreno and supported by Alexander Sorloth, the hosts found their cleaner route when Calvin Stengs drifted near Santiago Gimenez between the lines. One compressed sequence had Calvin Stengs, Gerard Moreno, and Santiago Gimenez almost on top of each other near the box; when the loose ball broke, Alexander Sorloth became the next outlet and the phase had to be defended the other way. Mats Wieffer kept appearing in promising passages without ever fully owning the match. Arne Slot kept adjusting the spacing from the touchline, clearly uneasy with how easily the midfield line was being bypassed. One rebound, a blocked shot, and a long stoppage distorted the mood, making Feyenoord appear more authoritative than the evidence really showed. So the local optimism, which had flickered more than once, proved cosmetic; the stronger imprint was left by Villarreal, who took the meaningful edge away from De Kuip.",
+    "sentiment": -1,
+    "entities": [
+      {
+        "text": "Feyenoord",
+        "label": "TEAM"
+      },
+      {
+        "text": "Villarreal",
+        "label": "TEAM"
+      },
+      {
+        "text": "De Kuip",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Calvin Stengs",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Santiago Gimenez",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Gerard Moreno",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Alexander Sorloth",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Mats Wieffer",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Arne Slot",
+        "label": "COACH"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Feyenoord",
+        "label": "TEAM"
+      },
+      {
+        "text": "Villarreal",
+        "label": "TEAM"
+      },
+      {
+        "text": "De Kuip",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Gerard Moreno",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Alexander Sorloth",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Calvin Stengs",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Santiago Gimenez",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Mats Wieffer",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Arne Slot",
+        "label": "PLAYER"
+      },
+      {
+        "text": "De",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Kuip",
+        "label": "PLAYER"
+      }
+    ]
+  },
+  {
+    "match_id": 201,
+    "home_team": "Chelsea",
+    "away_team": "Fenerbahce",
+    "text": "The match between Chelsea and Fenerbahce at Stamford Bridge resisted a tidy chronology, which is why the closing minutes were not the best place to judge it. Chelsea had the earlier spell of control through Cole Palmer and Reece James, yet Fenerbahce looked more dangerous whenever Dusan Tadic or Fred could turn the next transition forward. The most misleading moment came when Cole Palmer lost it under pressure from Dusan Tadic; Reece James rescued the phase, but Fred still carried the next attack into open grass. Nicolas Jackson remained involved whenever the game accelerated, sometimes as the outlet, sometimes as the emergency repair. Mauricio Pochettino kept adjusting the spacing from the touchline, clearly uneasy with how easily the midfield line was being bypassed. One rebound, a blocked shot, and a long stoppage distorted the mood, making Chelsea appear more authoritative than the evidence really showed. For all the visitors’ cleaner passing during parts of the second half, the evidence that mattered accumulated for Chelsea, who were the side that carried the larger return out of Stamford Bridge.",
+    "sentiment": 1,
+    "entities": [
+      {
+        "text": "Chelsea",
+        "label": "TEAM"
+      },
+      {
+        "text": "Fenerbahce",
+        "label": "TEAM"
+      },
+      {
+        "text": "Stamford Bridge",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Cole Palmer",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Reece James",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Dusan Tadic",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Fred",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Nicolas Jackson",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Mauricio Pochettino",
+        "label": "COACH"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Chelsea",
+        "label": "TEAM"
+      },
+      {
+        "text": "Fenerbahce",
+        "label": "TEAM"
+      },
+      {
+        "text": "Stamford Bridge",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Cole Palmer",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Reece James",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Dusan Tadic",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Fred",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Nicolas Jackson",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Mauricio Pochettino",
+        "label": "COACH"
+      },
+      {
+        "text": "Stamford",
+        "label": "TEAM"
+      },
+      {
+        "text": "Bridge",
+        "label": "STADIUM"
+      }
+    ]
+  },
+  {
+    "match_id": 202,
+    "home_team": "Leverkusen",
+    "away_team": "Tottenham Hotspur",
+    "text": "What happened last at BayArena in the meeting of Leverkusen and Tottenham Hotspur mattered less than the quieter actions that had prepared it. For a while the visitors owned territory through James Maddison and Cristian Romero, but the sharper home actions kept surfacing around Florian Wirtz, with Jeremie Frimpong usually close enough to continue the move. One compressed sequence had Florian Wirtz, James Maddison, and Jeremie Frimpong almost on top of each other near the box; when the loose ball broke, Cristian Romero became the next outlet and the phase had to be defended the other way. Granit Xhaka kept appearing in promising passages without ever fully owning the match. Xabi Alonso kept adjusting the spacing from the touchline, clearly uneasy with how easily the midfield line was being bypassed. A refereeing pause and two noisy set pieces briefly made it seem as if Tottenham Hotspur had taken command, but that impression overstated the spell. That left Leverkusen and Tottenham Hotspur with fragments of control rather than command, the kind of evening in which the balance kept restoring itself.",
+    "sentiment": 0,
+    "entities": [
+      {
+        "text": "Leverkusen",
+        "label": "TEAM"
+      },
+      {
+        "text": "Tottenham Hotspur",
+        "label": "TEAM"
+      },
+      {
+        "text": "BayArena",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Florian Wirtz",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Jeremie Frimpong",
+        "label": "PLAYER"
+      },
+      {
+        "text": "James Maddison",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Cristian Romero",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Granit Xhaka",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Xabi Alonso",
+        "label": "COACH"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "BayArena",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Leverkusen",
+        "label": "TEAM"
+      },
+      {
+        "text": "Tottenham Hotspur",
+        "label": "TEAM"
+      },
+      {
+        "text": "James Maddison",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Cristian Romero",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Florian Wirtz",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Jeremie Frimpong",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Granit Xhaka",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Xabi Alonso",
+        "label": "PLAYER"
+      }
+    ]
+  },
+  {
+    "match_id": 203,
+    "home_team": "Borussia Dortmund",
+    "away_team": "Inter",
+    "text": "There was a booking as well: Lautaro Martinez was cautioned for stopping the break with a late foul. Borussia Dortmund faced Inter at Signal Iduna Park, and the flow was uneven in the most interesting way. Control was temporary throughout, and each side took turns interrupting the other — Clear chances existed, but none of them turned into the one final action that would settle the score. Late on, Niclas Fullkrug still had time for an important defensive intervention. From there, the balance held.",
+    "sentiment": 0,
+    "entities": [
+      {
+        "text": "Borussia Dortmund",
+        "label": "TEAM"
+      },
+      {
+        "text": "Inter",
+        "label": "TEAM"
+      },
+      {
+        "text": "Signal Iduna Park",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Lautaro Martinez",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Niclas Fullkrug",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Nicolo Barella",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Edin Terzic",
+        "label": "COACH"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Lautaro Martinez",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Borussia Dortmund",
+        "label": "TEAM"
+      },
+      {
+        "text": "Inter",
+        "label": "TEAM"
+      },
+      {
+        "text": "Signal Iduna Park",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Niclas Fullkrug",
+        "label": "PLAYER"
+      }
+    ]
+  },
+  {
+    "match_id": 204,
+    "home_team": "Aston Villa",
+    "away_team": "Fenerbahce",
+    "text": "The game between Aston Villa and Fenerbahce at Villa Park kept changing emphasis, so the obvious reading was rarely the correct one. Although Fenerbahce enjoyed a sustained press led by Dusan Tadic and supported by Edin Dzeko, the hosts found their cleaner route when Douglas Luiz drifted near Ollie Watkins between the lines. One compressed sequence had Douglas Luiz, Dusan Tadic, and Ollie Watkins almost on top of each other near the box; when the loose ball broke, Edin Dzeko became the next outlet and the phase had to be defended the other way. John McGinn kept appearing in promising passages without ever fully owning the match. Unai Emery spent much of the night remapping the press, especially after one transition too many escaped the central lane. One rebound, a blocked shot, and a long stoppage distorted the mood, making Fenerbahce appear more authoritative than the evidence really showed. The crowd did not see a straightforward story, yet the fuller reading still belonged to Aston Villa, whose key interventions weighed more heavily than the visitors’ longer spells.",
+    "sentiment": 1,
+    "entities": [
+      {
+        "text": "Aston Villa",
+        "label": "TEAM"
+      },
+      {
+        "text": "Fenerbahce",
+        "label": "TEAM"
+      },
+      {
+        "text": "Villa Park",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Douglas Luiz",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Ollie Watkins",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Dusan Tadic",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Edin Dzeko",
+        "label": "PLAYER"
+      },
+      {
+        "text": "John McGinn",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Unai Emery",
+        "label": "COACH"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Aston Villa",
+        "label": "TEAM"
+      },
+      {
+        "text": "Fenerbahce",
+        "label": "TEAM"
+      },
+      {
+        "text": "Villa Park",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Dusan Tadic",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Edin Dzeko",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Douglas Luiz",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Ollie Watkins",
+        "label": "PLAYER"
+      },
+      {
+        "text": "John McGinn",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Unai Emery",
+        "label": "PLAYER"
+      }
+    ]
+  },
+  {
+    "match_id": 205,
+    "home_team": "Everton",
+    "away_team": "Lille",
+    "text": "There was a shock at Goodison Park, as Everton were unable to overcome an outstanding Lille side that delivered a superb performance. Leny Yoro deserves special mention, as his defensive work was crucial in shutting down the opposition attack—Dominic Calvert-Lewin was kept under control throughout by the young center-back. The tempo of the game consistently leaned in favor of the visitors, who, through Jonathan David and even James Tarkowski’s involvements, managed to dictate play on their terms. Sean Dyche tried to alter the course of the match at halftime by bringing on Dwight McNeil, but it made little difference. Lille were relentless and produced an almost flawless display, comfortably defeating Everton, who never truly rose to the occasion. It was a night to forget in England, and serious reflection will be needed to understand what went wrong and how to turn things around.",
+    "sentiment": -1,
+    "entities": [
+      {
+        "text": "Everton",
+        "label": "TEAM"
+      },
+      {
+        "text": "Lille",
+        "label": "TEAM"
+      },
+      {
+        "text": "Goodison Park",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Dominic Calvert-Lewin",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Dwight McNeil",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Leny Yoro",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Jonathan David",
+        "label": "PLAYER"
+      },
+      {
+        "text": "James Tarkowski",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Sean Dyche",
+        "label": "COACH"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Goodison Park",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Everton",
+        "label": "TEAM"
+      },
+      {
+        "text": "Lille",
+        "label": "TEAM"
+      },
+      {
+        "text": "Leny Yoro",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Dominic Calvert-Lewin",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Jonathan David",
+        "label": "PLAYER"
+      },
+      {
+        "text": "James Tarkowski’s",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Sean Dyche",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Dwight McNeil",
+        "label": "PLAYER"
+      }
+    ]
+  },
+  {
+    "match_id": 206,
+    "home_team": "Monaco",
+    "away_team": "Lazio",
+    "text": "The encounter between Monaco and Lazio at Stade Louis II never followed a clear narrative, making the final minutes a poor reflection of the overall story. Monaco enjoyed an early phase of control led by Youssouf Fofana and Wissam Ben Yedder, but Lazio carried more threat whenever Ciro Immobile or Nicolò Rovella were able to drive forward in transition. One particularly deceptive sequence saw Youssouf Fofana dispossessed under pressure from Ciro Immobile; although Wissam Ben Yedder managed to recover the situation, Nicolò Rovella still pushed the next attack into open space. Aleksandr Golovin remained a constant presence whenever the tempo increased, alternating between being an attacking outlet and a player tasked with restoring balance. From the sidelines, Adi Hütter repeatedly adjusted his team’s structure, clearly concerned by how easily the midfield was being bypassed. Monaco had the most vocal and energetic spell of the match, though their decision-making in the penalty area during that period lacked the clarity the crowd seemed to believe it had.Once the chaotic moments were separated from the truly decisive ones, the game ultimately leaned in Monaco’s favor—not because they dominated throughout, but because their key actions carried greater impact.",
+    "sentiment": 1,
+    "entities": [
+      {
+        "text": "Monaco",
+        "label": "TEAM"
+      },
+      {
+        "text": "Lazio",
+        "label": "TEAM"
+      },
+      {
+        "text": "Stade Louis II",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Youssouf Fofana",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Wissam Ben Yedder",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Ciro Immobile",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Nicolo Rovella",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Aleksandr Golovin",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Adi Hutter",
+        "label": "COACH"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Monaco",
+        "label": "TEAM"
+      },
+      {
+        "text": "Lazio",
+        "label": "TEAM"
+      },
+      {
+        "text": "Stade Louis II",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Youssouf Fofana",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Wissam Ben Yedder",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Ciro Immobile",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Nicolò Rovella",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Aleksandr Golovin",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Adi Hütter",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Monaco’s",
+        "label": "TEAM"
+      }
+    ]
+  },
+  {
+    "match_id": 207,
+    "home_team": "Leverkusen",
+    "away_team": "Wolverhampton Wanderers",
+    "text": "The clash at the BayArena was a story told in fragments, refusing to settle into a tidy narrative arc. Early on, Leverkusen tried to dictate the tempo via Jeremie Frimpong and Florian Wirtz, yet Wolves acted as a constant disruptor, looking most lethal when Pedro Neto or Mario Lemina could turn a turnover into a sprint. The game’s frantic core was captured in a single, claustrophobic moment: Frimpong, Neto, and Wirtz tangled together near the box, only for the ball to spill to Lemina, forcing a desperate defensive retreat. Victor Boniface, drifting between leading the line and tracking back, personified the unsettled rhythm of the night. On the touchline, Xabi Alonso was in a state of constant tactical recalibration, visibly concerned by how frequently his central spine was being pierced. While a refereeing lull and a couple of frantic set pieces briefly suggested Leverkusen had found their footing, it was a false dawn. The match ultimately resisted any grand conclusion—just a series of interrupted transitions and half-baked opportunities that left the final result hanging in the air.",
+    "sentiment": 0,
+    "entities": [
+      {
+        "text": "Leverkusen",
+        "label": "TEAM"
+      },
+      {
+        "text": "Wolverhampton Wanderers",
+        "label": "TEAM"
+      },
+      {
+        "text": "BayArena",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Jeremie Frimpong",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Florian Wirtz",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Pedro Neto",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Mario Lemina",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Victor Boniface",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Xabi Alonso",
+        "label": "COACH"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "BayArena",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Leverkusen",
+        "label": "TEAM"
+      },
+      {
+        "text": "Jeremie Frimpong",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Florian Wirtz",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Wolves",
+        "label": "TEAM"
+      },
+      {
+        "text": "Pedro Neto",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Mario Lemina",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Frimpong",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Neto",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Wirtz",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Lemina",
+        "label": "TEAM"
+      },
+      {
+        "text": "Victor Boniface",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Xabi Alonso",
+        "label": "PLAYER"
+      }
+    ]
+  },
+  {
+    "match_id": 208,
+    "home_team": "Valencia",
+    "away_team": "Porto",
+    "text": "The match between Valencia and Porto at Mestalla did not follow a neat order, which is why the closing minutes were not the best way to judge it. Valencia had the earlier spell of control through Pepelu and Javi Guerra, but Porto looked more dangerous whenever Galeno or Alan Varela could push the next transition forward. The clearest misleading moment came when Pepelu was pressed into losing it by Galeno; Javi Guerra rescued the move, but Alan Varela still carried the next attack into open space. Hugo Duro kept popping up in promising passages without ever fully taking over. Ruben Baraja spent much of the night adjusting the press, especially after one transition too many got through the middle. A refereeing pause and two noisy set pieces briefly made Porto look like the side in charge, but that reading went too far. So while Porto had enough pressure to raise the volume, the balance, once every phase was counted, still leaned toward Valencia.",
+    "sentiment": 1,
+    "entities": [
+      {
+        "text": "Valencia",
+        "label": "TEAM"
+      },
+      {
+        "text": "Porto",
+        "label": "TEAM"
+      },
+      {
+        "text": "Mestalla",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Pepelu",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Javi Guerra",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Galeno",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Alan Varela",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Hugo Duro",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Ruben Baraja",
+        "label": "COACH"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Valencia",
+        "label": "TEAM"
+      },
+      {
+        "text": "Porto",
+        "label": "TEAM"
+      },
+      {
+        "text": "Mestalla",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Pepelu",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Javi Guerra",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Galeno",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Alan Varela",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Hugo Duro",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Ruben Baraja",
+        "label": "PLAYER"
+      }
+    ]
+  },
+  {
+    "match_id": 209,
+    "home_team": "Tottenham Hotspur",
+    "away_team": "Everton",
+    "text": "The game between Tottenham Hotspur and Everton at Tottenham Hotspur Stadium shifted, so the obvious reading was not the correct one. Tottenham pushed through James Maddison and Cristian Romero and briefly pinned Everton deep, though the sharper countering pattern still ran through Dominic Calvert-Lewin and then Abdoulaye Doucoure. In one tight sequence, James Maddison, Dominic Calvert-Lewin, and Cristian Romero were all crowded near the box; when the loose ball broke, Abdoulaye Doucoure became the next outlet and the move had to be defended the other way. Son Heung-min kept appearing in promising passages without ever fully taking over. Ange Postecoglou spent much of the night adjusting the press, especially after one transition too many got through the middle. One rebound, a blocked shot, and a long stoppage made Everton look more authoritative than they really were. That was why the visitors could point to territory and still leave empty-handed, while Tottenham Hotspur came away from the stadium with the advantage that mattered.",
+    "sentiment": 1,
+    "entities": [
+      {
+        "text": "Tottenham Hotspur",
+        "label": "TEAM"
+      },
+      {
+        "text": "Everton",
+        "label": "TEAM"
+      },
+      {
+        "text": "Tottenham Hotspur Stadium",
+        "label": "STADIUM"
+      },
+      {
+        "text": "James Maddison",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Cristian Romero",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Dominic Calvert-Lewin",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Abdoulaye Doucoure",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Son Heung-min",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Ange Postecoglou",
+        "label": "COACH"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Tottenham Hotspur",
+        "label": "TEAM"
+      },
+      {
+        "text": "Everton",
+        "label": "TEAM"
+      },
+      {
+        "text": "Tottenham Hotspur Stadium",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Tottenham",
+        "label": "TEAM"
+      },
+      {
+        "text": "James Maddison",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Cristian Romero",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Dominic Calvert-Lewin",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Abdoulaye Doucoure",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Son Heung-min",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Ange Postecoglou",
+        "label": "PLAYER"
+      }
+    ]
+  },
+  {
+    "match_id": 210,
+    "home_team": "Arsenal",
+    "away_team": "Valencia",
+    "text": "At Emirates Stadium, the balance held for stretches, but Arsenal made their moments count against Valencia. Arsenal monopolized the first half through Martin Odegaard and Bukayo Saka, while Valencia answered through Pepelu and Javi Guerra. One short sequence had Martin Odegaard, Pepelu, and Bukayo Saka fighting for the ball when Javi Guerra got away with it. Gabriel Jesus adapted to the tempo shifts and remained effective throughout. Mikel Arteta made different changes in the match, to shift the result in his favor. In a game of shifting control, Arsenal were the side that made their moments count. Even when Valencia stayed close, Arsenal maintained control and protected their lead until the end.",
+    "sentiment": 1,
+    "entities": [
+      {
+        "text": "Arsenal",
+        "label": "TEAM"
+      },
+      {
+        "text": "Valencia",
+        "label": "TEAM"
+      },
+      {
+        "text": "Emirates Stadium",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Martin Odegaard",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Bukayo Saka",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Pepelu",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Javi Guerra",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Gabriel Jesus",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Mikel Arteta",
+        "label": "COACH"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Emirates Stadium",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Arsenal",
+        "label": "TEAM"
+      },
+      {
+        "text": "Valencia",
+        "label": "TEAM"
+      },
+      {
+        "text": "Martin Odegaard",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Bukayo Saka",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Pepelu",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Javi Guerra",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Gabriel Jesus",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Mikel Arteta",
+        "label": "COACH"
+      }
+    ]
+  },
+  {
+    "match_id": 211,
+    "home_team": "Chelsea",
+    "away_team": "Porto",
+    "text": "Chelsea and Porto played an unpredictable match at Stamford Bridge. Cole Palmer and Enzo Fernandez dictated the early pace for the hosts, but Porto countered sharply through Alan Varela and Evanilson. Enzo Fernandez and Alan Varela clashed repeatedly in the center of the pitch; whoever won the ball immediately fed Evanilson, consistently catching Cole Palmer out of position. Reece James threatened in the attacking third but failed to leave a lasting mark. Mauricio Pochettino frantically shifted his tactics from the sidelines, struggling to stop Porto from cutting straight through the middle. Looking past the surface chaos, Porto inflicted the actual damage and walked away with the superior performance.",
+    "sentiment": -1,
+    "entities": [
+      {
+        "text": "Chelsea",
+        "label": "TEAM"
+      },
+      {
+        "text": "Porto",
+        "label": "TEAM"
+      },
+      {
+        "text": "Stamford Bridge",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Cole Palmer",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Enzo Fernandez",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Alan Varela",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Evanilson",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Reece James",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Mauricio Pochettino",
+        "label": "COACH"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Chelsea",
+        "label": "TEAM"
+      },
+      {
+        "text": "Porto",
+        "label": "TEAM"
+      },
+      {
+        "text": "Stamford Bridge",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Cole Palmer",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Enzo Fernandez",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Alan Varela",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Evanilson",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Reece James",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Mauricio Pochettino",
+        "label": "COACH"
+      }
+    ]
+  },
+  {
+    "match_id": 212,
+    "home_team": "Valencia",
+    "away_team": "Aston Villa",
+    "text": "The equaliser changed the noise, but it also changed the spaces. Before Aston Villa levelled, Valencia had been defending the game in front of them, compact and fairly comfortable. Once it was level, though, the lines stretched, and that suited Morgan Rogers far more than it had suited anyone in the first hour. Youri Tielemans began to find him earlier, John McGinn started arriving late into gaps, and Carlos Corberán was left trying to rebuild distances that had quietly disappeared. What followed was no longer a managed lead but an open contest.",
+    "sentiment": 0,
+    "entities": [
+      {
+        "text": "Valencia",
+        "label": "TEAM"
+      },
+      {
+        "text": "Aston Villa",
+        "label": "TEAM"
+      },
+      {
+        "text": "Mestalla",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Morgan Rogers",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Youri Tielemans",
+        "label": "PLAYER"
+      },
+      {
+        "text": "John McGinn",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Carlos Corberán",
+        "label": "COACH"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Aston Villa",
+        "label": "TEAM"
+      },
+      {
+        "text": "Valencia",
+        "label": "TEAM"
+      },
+      {
+        "text": "Morgan Rogers",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Youri Tielemans",
+        "label": "PLAYER"
+      },
+      {
+        "text": "John McGinn",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Carlos Corberán",
+        "label": "PLAYER"
+      }
+    ]
+  },
+  {
+    "match_id": 213,
+    "home_team": "Newcastle United",
+    "away_team": "Atletico Madrid",
+    "text": "By the end, most people inside St. James’ Park would remember the VAR delay, the disallowed goal, and the arguments near the technical area. Those moments mattered, but they were not the reason Newcastle United or Atletico Madrid gained control. The deeper issue was that Julián Alvarez kept escaping the first line, and every time Antoine Griezmann collected the next pass, the defending block had to turn. Eddie Howe reacted by asking Sandro Tonali to sit deeper, and that gradually closed the route. The drama was loud; the tactical swing was quieter.",
+    "sentiment": 0,
+    "entities": [
+      {
+        "text": "Newcastle United",
+        "label": "TEAM"
+      },
+      {
+        "text": "Atletico Madrid",
+        "label": "TEAM"
+      },
+      {
+        "text": "St. James’ Park",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Julián Alvarez",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Antoine Griezmann",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Sandro Tonali",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Eddie Howe",
+        "label": "COACH"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "St. James’ Park",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Newcastle United",
+        "label": "TEAM"
+      },
+      {
+        "text": "Atletico Madrid",
+        "label": "TEAM"
+      },
+      {
+        "text": "Julián Alvarez",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Antoine Griezmann",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Eddie Howe",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Sandro Tonali",
+        "label": "PLAYER"
+      }
+    ]
+  },
+  {
+    "match_id": 214,
+    "home_team": "Barcelona",
+    "away_team": "Porto",
+    "text": "This was one of those matches in which the scoreboard invited the wrong conclusion. Because Porto were trailing, everything they did seemed urgent and impressive, particularly when Alan Varela drove attacks from deeper positions and Rodrigo Mora began forcing shots from the edge of the area. Yet the side in front, Barcelona, had no need to chase authority. Their control came in smaller signs: Pedri drawing fouls, Jules Koundé carrying the ball into safer corners, and Hansi Flick repeatedly urging restraint instead of ambition. They were not passive; they were selective.",
+    "sentiment": 1,
+    "entities": [
+      {
+        "text": "Barcelona",
+        "label": "TEAM"
+      },
+      {
+        "text": "Porto",
+        "label": "TEAM"
+      },
+      {
+        "text": "Spotify Camp Nou",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Alan Varela",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Rodrigo Mora",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Pedri",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Jules Koundé",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Hansi Flick",
+        "label": "COACH"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Porto",
+        "label": "TEAM"
+      },
+      {
+        "text": "Alan Varela",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Rodrigo Mora",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Barcelona",
+        "label": "TEAM"
+      },
+      {
+        "text": "Pedri",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Jules Koundé",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Hansi Flick",
+        "label": "PLAYER"
+      }
+    ]
+  },
+  {
+    "match_id": 215,
+    "home_team": "Feyenoord",
+    "away_team": "Liverpool",
+    "text": "There are matches shaped by brilliance, and there are matches shaped by fatigue. This one increasingly belonged to the second kind. As legs began to go at De Kuip, pressing distances collapsed, recovery runs shortened, and the structure of both Feyenoord and Liverpool started to fray. That was when Florian Wirtz became influential, not through speed alone but through timing, choosing exactly when to carry and when to release Cody Gakpo. Robin van Persie tried to refresh the midfield, but the game was already drifting toward whoever could think more clearly in tired spaces — and that turned out to be Liverpool.",
+    "sentiment": -1,
+    "entities": [
+      {
+        "text": "Feyenoord",
+        "label": "TEAM"
+      },
+      {
+        "text": "Liverpool",
+        "label": "TEAM"
+      },
+      {
+        "text": "De Kuip",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Florian Wirtz",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Cody Gakpo",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Robin van Persie",
+        "label": "COACH"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "De Kuip",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Feyenoord",
+        "label": "TEAM"
+      },
+      {
+        "text": "Liverpool",
+        "label": "TEAM"
+      },
+      {
+        "text": "Florian Wirtz",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Cody Gakpo",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Robin van",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Persie",
+        "label": "COACH"
+      }
+    ]
+  },
+  {
+    "match_id": 216,
+    "home_team": "Roma",
+    "away_team": "Juventus",
+    "text": "The Olimpico hosts a duel of shifting phases, with no clear path to victory for either side. Federico Chiesa powers the away side's advance with sheer verticality, while the Roman resistance relies on the elegant interplay between Paulo Dybala and Lorenzo Pellegrini. Because the initiative is traded so frequently, the match stays locked in an unpredictable cycle, preventing a single dominant story from emerging.",
+    "sentiment": 0,
+    "entities": [
+      {
+        "text": "Roma",
+        "label": "TEAM"
+      },
+      {
+        "text": "Juventus",
+        "label": "TEAM"
+      },
+      {
+        "text": "Stadio Olimpico",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Paulo Dybala",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Lorenzo Pellegrini",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Federico Chiesa",
+        "label": "PLAYER"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Olimpico",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Federico Chiesa",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Paulo Dybala",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Lorenzo Pellegrini",
+        "label": "PLAYER"
+      }
+    ]
+  },
+  {
+    "match_id": 217,
+    "home_team": "RC Lens",
+    "away_team": "AS Monaco",
+    "text": "The visitors provided a technical exhibition as Wissam Ben Yedder and Aleksandr Golovin skillfully navigated the flow of the game. Elye Wahi found himself marooned up front, with his individual efforts quickly curtailed by a Monaco unit that seemed to anticipate every move. This was an exercise in coolness that left the home team essentially powerless for most of the ninety minutes.",
+    "sentiment": -1,
+    "entities": [
+      {
+        "text": "RC Lens",
+        "label": "TEAM"
+      },
+      {
+        "text": "AS Monaco",
+        "label": "TEAM"
+      },
+      {
+        "text": "Aleksandr Golovin",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Wissam Ben Yedder",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Elye Wahi",
+        "label": "PLAYER"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Wissam Ben Yedder",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Aleksandr Golovin",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Elye Wahi",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Monaco",
+        "label": "TEAM"
+      }
+    ]
+  },
+  {
+    "match_id": 218,
+    "home_team": "Borussia Dormundt",
+    "away_team": "Atalanta",
+    "text": "The German side maintained an unwavering command of the pitch, with Julian Brandt and Marco Reus conducting every forward surge with pinpoint accuracy. This attack found its perfect spearhead in Niclas Füllkrug, whose physical presence pinned the opposition back throughout the evening. While Ademola Lookman sparked a few fleeting threats, Atalanta’s challenge eventually faltered, as they proved unable to dismantle the pervasive grip established by the home team.",
+    "sentiment": 1,
+    "entities": [
+      {
+        "text": "Borussia Dormundt",
+        "label": "TEAM"
+      },
+      {
+        "text": "Atalanta",
+        "label": "TEAM"
+      },
+      {
+        "text": "Julian Brandt",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Marco Reus",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Niclas Füllkrug",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Ademola Lookman",
+        "label": "PLAYER"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Julian Brandt",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Marco Reus",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Niclas Füllkrug",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Ademola Lookman",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Atalanta’s",
+        "label": "TEAM"
+      }
+    ]
+  },
+  {
+    "match_id": 219,
+    "home_team": "Monaco",
+    "away_team": "Real Madrid",
+    "text": "The game between Monaco and Real Madrid at Stade Louis II kept changing emphasis, so the obvious reading was rarely the correct one. Monaco had the earlier spell of control through Wissam Ben Yedder and Youssouf Fofana, yet Real Madrid looked more dangerous whenever Jude Bellingham or Vinicius Junior could turn the next transition forward. The most misleading moment came when Wissam Ben Yedder lost it under pressure from Jude Bellingham; Youssouf Fofana rescued the phase, but Vinicius Junior still carried the next attack into open grass. Takumi Minamino remained involved whenever the game accelerated, sometimes as the outlet, sometimes as the emergency repair. Adi Hutter kept adjusting the spacing from the touchline, clearly uneasy with how easily the midfield line was being bypassed. One rebound, a blocked shot, and a long stoppage distorted the mood, making Real Madrid appear more authoritative than the evidence really showed. That left Monaco and Real Madrid with fragments of control rather than command, the kind of evening in which the balance kept restoring itself.",
+    "sentiment": 0,
+    "entities": [
+      {
+        "text": "Monaco",
+        "label": "TEAM"
+      },
+      {
+        "text": "Real Madrid",
+        "label": "TEAM"
+      },
+      {
+        "text": "Stade Louis II",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Wissam Ben Yedder",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Youssouf Fofana",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Jude Bellingham",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Vinicius Junior",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Takumi Minamino",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Adi Hutter",
+        "label": "COACH"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Monaco",
+        "label": "TEAM"
+      },
+      {
+        "text": "Real Madrid",
+        "label": "TEAM"
+      },
+      {
+        "text": "Stade Louis II",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Wissam Ben Yedder",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Youssouf Fofana",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Jude Bellingham",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Vinicius Junior",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Takumi Minamino",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Adi Hutter",
+        "label": "PLAYER"
+      }
+    ]
+  },
+  {
+    "match_id": 220,
+    "home_team": "Milan",
+    "away_team": "Chelsea",
+    "text": "Late noise at San Siro almost obscured how the balance between Milan and Chelsea had really been shaped. Although Chelsea enjoyed a sustained press led by Nicolas Jackson and supported by Reece James, the hosts found their cleaner route when Rafael Leao drifted near Theo Hernandez between the lines. The most misleading moment came when Rafael Leao lost it under pressure from Nicolas Jackson; Theo Hernandez rescued the phase, but Reece James still carried the next attack into open grass. Christian Pulisic kept appearing in promising passages without ever fully owning the match. Stefano Pioli spent much of the night remapping the press, especially after one transition too many escaped the central lane. The loudest stretch belonged to Chelsea, though the penalty-area decisions during it were less decisive than the crowd assumed. When the frantic stretches were separated from the decisive ones, the night settled in favor of Milan, not because they owned every minute, but because their moments cut deeper.",
+    "sentiment": 1,
+    "entities": [
+      {
+        "text": "Milan",
+        "label": "TEAM"
+      },
+      {
+        "text": "Chelsea",
+        "label": "TEAM"
+      },
+      {
+        "text": "San Siro",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Rafael Leao",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Theo Hernandez",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Nicolas Jackson",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Reece James",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Christian Pulisic",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Stefano Pioli",
+        "label": "COACH"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "San Siro",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Milan",
+        "label": "TEAM"
+      },
+      {
+        "text": "Chelsea",
+        "label": "TEAM"
+      },
+      {
+        "text": "Nicolas Jackson",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Reece James",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Rafael Leao",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Theo Hernandez",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Christian Pulisic",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Stefano",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Pioli",
+        "label": "COACH"
+      }
+    ]
+  },
+  {
+    "match_id": 221,
+    "home_team": "Manchester City",
+    "away_team": "Monaco",
+    "text": "What happened last at Etihad Stadium in the meeting of Manchester City and Monaco mattered less than the quieter actions that had prepared it. Manchester City had the earlier spell of control through Kevin De Bruyne and Phil Foden, yet Monaco looked more dangerous whenever Takumi Minamino or Aleksandr Golovin could turn the next transition forward. A move started by Aleksandr Golovin seemed to tilt the field until Kevin De Bruyne recovered forty yards; moments later Takumi Minamino and Phil Foden were contesting the next second ball in the same channel. Erling Haaland remained involved whenever the game accelerated, sometimes as the outlet, sometimes as the emergency repair. Pep Guardiola kept adjusting the spacing from the touchline, clearly uneasy with how easily the midfield line was being bypassed. A refereeing pause and two noisy set pieces briefly made it seem as if Manchester City had taken command, but that impression overstated the spell. The crowd did not see a straightforward story, yet the fuller reading still belonged to Manchester City, whose key interventions weighed more heavily than the visitors’ longer spells.",
+    "sentiment": 1,
+    "entities": [
+      {
+        "text": "Manchester City",
+        "label": "TEAM"
+      },
+      {
+        "text": "Monaco",
+        "label": "TEAM"
+      },
+      {
+        "text": "Etihad Stadium",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Kevin De Bruyne",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Phil Foden",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Takumi Minamino",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Aleksandr Golovin",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Erling Haaland",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Pep Guardiola",
+        "label": "COACH"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Etihad Stadium",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Manchester City",
+        "label": "TEAM"
+      },
+      {
+        "text": "Monaco",
+        "label": "TEAM"
+      },
+      {
+        "text": "Kevin De Bruyne",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Phil Foden",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Takumi Minamino",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Aleksandr Golovin",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Erling Haaland",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Pep Guardiola",
+        "label": "PLAYER"
+      }
+    ]
+  },
+  {
+    "match_id": 222,
+    "home_team": "Mallorca",
+    "away_team": "Celtic",
+    "text": "Mallorca started with intent at Son Moix, but Celtic punished the key moments much better. Antonio Raillo helped the visitors settle into the match and Kyogo Furuhashi attacked the spaces left behind as the game opened up. Although Daizen Maeda gave the hosts hope for a while, Celtic handled the closing stages well enough to take the win.",
+    "sentiment": -1,
+    "entities": [
+      {
+        "text": "Mallorca",
+        "label": "TEAM"
+      },
+      {
+        "text": "Celtic",
+        "label": "TEAM"
+      },
+      {
+        "text": "Son Moix",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Antonio Raillo",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Kyogo Furuhashi",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Daizen Maeda",
+        "label": "PLAYER"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Mallorca",
+        "label": "TEAM"
+      },
+      {
+        "text": "Son Moix",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Celtic",
+        "label": "TEAM"
+      },
+      {
+        "text": "Antonio Raillo",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Kyogo Furuhashi",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Daizen Maeda",
+        "label": "PLAYER"
+      }
+    ]
+  },
+  {
+    "match_id": 223,
+    "home_team": "Bayer Leverkusen",
+    "away_team": "Arsenal",
+    "text": "Neither Bayer Leverkusen nor Arsenal managed to take full control at BayArena. Declan Rice gave one side momentum for a spell, then Jeremie Frimpong shifted it back the other way, and Gabriel Jesus kept the contest alive deep into the second half. The balance of the chances ultimately matched the draw. Coach Mikel Arteta later spoke about how demanding the match had been.",
+    "sentiment": 0,
+    "entities": [
+      {
+        "text": "Bayer Leverkusen",
+        "label": "TEAM"
+      },
+      {
+        "text": "Arsenal",
+        "label": "TEAM"
+      },
+      {
+        "text": "BayArena",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Declan Rice",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Jeremie Frimpong",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Gabriel Jesus",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Mikel Arteta",
+        "label": "COACH"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Bayer",
+        "label": "TEAM"
+      },
+      {
+        "text": "Leverkusen",
+        "label": "TEAM"
+      },
+      {
+        "text": "Arsenal",
+        "label": "TEAM"
+      },
+      {
+        "text": "BayArena",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Declan Rice",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Jeremie Frimpong",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Gabriel Jesus",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Mikel Arteta",
+        "label": "COACH"
+      }
+    ]
+  },
+  {
+    "match_id": 224,
+    "home_team": "Manchester United",
+    "away_team": "Eintracht Frankfurt",
+    "text": "At Old Trafford, Manchester United controlled the better phases and made that pressure count. Hugo Larsson kept linking the play for the hosts, while Bruno Fernandes attacked the spaces behind Eintracht Frankfurt. Eintracht Frankfurt still had threatening moments through Marcus Rashford, but the decisive passages belonged to Manchester United. Coach Erik ten Hag later spoke about how demanding the match had been.",
+    "sentiment": 1,
+    "entities": [
+      {
+        "text": "Manchester United",
+        "label": "TEAM"
+      },
+      {
+        "text": "Eintracht Frankfurt",
+        "label": "TEAM"
+      },
+      {
+        "text": "Old Trafford",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Hugo Larsson",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Bruno Fernandes",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Marcus Rashford",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Erik ten Hag",
+        "label": "COACH"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Old Trafford",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Manchester United",
+        "label": "TEAM"
+      },
+      {
+        "text": "Hugo Larsson",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Bruno Fernandes",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Eintracht Frankfurt",
+        "label": "TEAM"
+      },
+      {
+        "text": "Marcus Rashford",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Erik ten Hag",
+        "label": "COACH"
+      }
+    ]
+  },
+  {
+    "match_id": 225,
+    "home_team": "Dinamo Zagreb",
+    "away_team": "Bayern Munich",
+    "text": "Dinamo Zagreb started with intent at Stadion Maksimir, but Bayern Munich punished the key moments much better. Bruno Petkovic helped the visitors settle into the match and Joshua Kimmich attacked the spaces left behind as the game opened up. Although Jamal Musiala gave the hosts hope for a while, Bayern Munich handled the closing stages well enough to take the win.",
+    "sentiment": -1,
+    "entities": [
+      {
+        "text": "Dinamo Zagreb",
+        "label": "TEAM"
+      },
+      {
+        "text": "Bayern Munich",
+        "label": "TEAM"
+      },
+      {
+        "text": "Stadion Maksimir",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Bruno Petkovic",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Joshua Kimmich",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Jamal Musiala",
+        "label": "PLAYER"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Dinamo Zagreb",
+        "label": "TEAM"
+      },
+      {
+        "text": "Stadion Maksimir",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Bayern Munich",
+        "label": "TEAM"
+      },
+      {
+        "text": "Bruno Petkovic",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Joshua Kimmich",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Jamal Musiala",
+        "label": "PLAYER"
+      }
+    ]
+  },
+  {
+    "match_id": 226,
+    "home_team": "PSV",
+    "away_team": "Real Madrid",
+    "text": "PSV started with intent at Philips Stadion, but Real Madrid punished the key moments much better. Johan Bakayoko helped the visitors settle into the match and Luuk de Jong attacked the spaces left behind as the game opened up. Although Rodrygo gave the hosts hope for a while, Real Madrid handled the closing stages well enough to take the win. Coach Peter Bosz later spoke about how demanding the match had been.",
+    "sentiment": -1,
+    "entities": [
+      {
+        "text": "PSV",
+        "label": "TEAM"
+      },
+      {
+        "text": "Real Madrid",
+        "label": "TEAM"
+      },
+      {
+        "text": "Philips Stadion",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Johan Bakayoko",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Luuk de Jong",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Rodrygo",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Peter Bosz",
+        "label": "COACH"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "PSV",
+        "label": "TEAM"
+      },
+      {
+        "text": "Philips Stadion",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Real Madrid",
+        "label": "TEAM"
+      },
+      {
+        "text": "Johan Bakayoko",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Luuk de Jong",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Rodrygo",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Peter Bosz",
+        "label": "COACH"
+      }
+    ]
+  },
+  {
+    "match_id": 227,
+    "home_team": "Feyenoord",
+    "away_team": "Chelsea",
+    "text": "Neither Feyenoord nor Chelsea managed to take full control at De Kuip. Calvin Stengs gave one side momentum for a spell, then Mats Wieffer shifted it back the other way, and Enzo Fernandez kept the contest alive deep into the second half. The balance of the chances ultimately matched the draw. Coach Arne Slot later spoke about how demanding the match had been.",
+    "sentiment": 0,
+    "entities": [
+      {
+        "text": "Feyenoord",
+        "label": "TEAM"
+      },
+      {
+        "text": "Chelsea",
+        "label": "TEAM"
+      },
+      {
+        "text": "De Kuip",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Calvin Stengs",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Mats Wieffer",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Enzo Fernandez",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Arne Slot",
+        "label": "COACH"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Feyenoord",
+        "label": "TEAM"
+      },
+      {
+        "text": "Chelsea",
+        "label": "TEAM"
+      },
+      {
+        "text": "De Kuip",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Calvin Stengs",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Mats Wieffer",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Enzo Fernandez",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Arne Slot",
+        "label": "COACH"
+      }
+    ]
+  },
+  {
+    "match_id": 228,
+    "home_team": "Manchester United",
+    "away_team": "Valencia",
+    "text": "Neither Manchester United nor Valencia managed to take full control at Old Trafford. Bruno Fernandes gave one side momentum for a spell, then Casemiro shifted it back the other way, and Hugo Duro kept the contest alive deep into the second half. The balance of the chances ultimately matched the draw. Coach Erik ten Hag later spoke about how demanding the match had been.",
+    "sentiment": 0,
+    "entities": [
+      {
+        "text": "Manchester United",
+        "label": "TEAM"
+      },
+      {
+        "text": "Valencia",
+        "label": "TEAM"
+      },
+      {
+        "text": "Old Trafford",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Bruno Fernandes",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Casemiro",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Hugo Duro",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Erik ten Hag",
+        "label": "COACH"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Manchester United",
+        "label": "TEAM"
+      },
+      {
+        "text": "Valencia",
+        "label": "TEAM"
+      },
+      {
+        "text": "Old Trafford",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Bruno Fernandes",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Casemiro",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Hugo Duro",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Erik ten Hag",
+        "label": "COACH"
+      }
+    ]
+  },
+  {
+    "match_id": 229,
+    "home_team": "Wolverhampton Wanderers",
+    "away_team": "Leverkusen",
+    "text": "Wolverhampton Wanderers started with intent at Molineux Stadium, but Leverkusen punished the key moments much better. Max Kilman helped the visitors settle into the match and Pedro Neto attacked the spaces left behind as the game opened up. Although Florian Wirtz gave the hosts hope for a while, Leverkusen handled the closing stages well enough to take the win. Coach Gary O’Neil later spoke about how demanding the match had been.",
+    "sentiment": -1,
+    "entities": [
+      {
+        "text": "Wolverhampton Wanderers",
+        "label": "TEAM"
+      },
+      {
+        "text": "Leverkusen",
+        "label": "TEAM"
+      },
+      {
+        "text": "Molineux Stadium",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Max Kilman",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Pedro Neto",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Florian Wirtz",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Gary O’Neil",
+        "label": "COACH"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Wolverhampton Wanderers",
+        "label": "TEAM"
+      },
+      {
+        "text": "Molineux Stadium",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Leverkusen",
+        "label": "TEAM"
+      },
+      {
+        "text": "Max Kilman",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Pedro Neto",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Florian Wirtz",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Gary O’Neil",
+        "label": "COACH"
+      }
+    ]
+  },
+  {
+    "match_id": 230,
+    "home_team": "Inter",
+    "away_team": "Lille",
+    "text": "At San Siro, Inter controlled the better phases and made that pressure count. Hakan Calhanoglu kept linking the play for the hosts, while Marcus Thuram attacked the spaces behind Lille. Lille still had threatening moments through Edon Zhegrova, but the decisive passages belonged to Inter. Coach Simone Inzaghi later spoke about how demanding the match had been.",
+    "sentiment": 1,
+    "entities": [
+      {
+        "text": "Inter",
+        "label": "TEAM"
+      },
+      {
+        "text": "Lille",
+        "label": "TEAM"
+      },
+      {
+        "text": "San Siro",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Hakan Calhanoglu",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Marcus Thuram",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Edon Zhegrova",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Simone Inzaghi",
+        "label": "COACH"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "San Siro",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Inter",
+        "label": "TEAM"
+      },
+      {
+        "text": "Hakan Calhanoglu",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Marcus Thuram",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Lille",
+        "label": "TEAM"
+      },
+      {
+        "text": "Edon Zhegrova",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Simone Inzaghi",
+        "label": "COACH"
+      }
+    ]
+  },
+  {
+    "match_id": 231,
+    "home_team": "Aston Villa",
+    "away_team": "Liverpool",
+    "text": "At Villa Park, Aston Villa controlled the better phases and made that pressure count. John McGinn kept linking the play for the hosts, while Moussa Diaby attacked the spaces behind Liverpool. Liverpool still had threatening moments through Darwin Nunez, but the decisive passages belonged to Aston Villa. Coach Unai Emery later spoke about how demanding the match had been.",
+    "sentiment": 1,
+    "entities": [
+      {
+        "text": "Aston Villa",
+        "label": "TEAM"
+      },
+      {
+        "text": "Liverpool",
+        "label": "TEAM"
+      },
+      {
+        "text": "Villa Park",
+        "label": "STADIUM"
+      },
+      {
+        "text": "John McGinn",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Moussa Diaby",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Darwin Nunez",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Unai Emery",
+        "label": "COACH"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Villa Park",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Aston Villa",
+        "label": "TEAM"
+      },
+      {
+        "text": "John McGinn",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Moussa Diaby",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Liverpool",
+        "label": "TEAM"
+      },
+      {
+        "text": "Darwin Nunez",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Unai Emery",
+        "label": "COACH"
+      }
+    ]
+  },
+  {
+    "match_id": 232,
+    "home_team": "Bayern Munich",
+    "away_team": "Brentford",
+    "text": "At Allianz Arena, Bayern Munich controlled the better phases and made that pressure count. Igor Thiago kept linking the play for the hosts, while Mathias Jensen attacked the spaces behind Brentford. Brentford still had threatening moments through Harry Kane, but the decisive passages belonged to Bayern Munich. Coach Vincent Kompany later spoke about how demanding the match had been.",
+    "sentiment": 1,
+    "entities": [
+      {
+        "text": "Bayern Munich",
+        "label": "TEAM"
+      },
+      {
+        "text": "Brentford",
+        "label": "TEAM"
+      },
+      {
+        "text": "Allianz Arena",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Igor Thiago",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Mathias Jensen",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Harry Kane",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Vincent Kompany",
+        "label": "COACH"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Allianz Arena",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Bayern Munich",
+        "label": "TEAM"
+      },
+      {
+        "text": "Igor Thiago",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Mathias Jensen",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Brentford",
+        "label": "TEAM"
+      },
+      {
+        "text": "Harry Kane",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Vincent Kompany",
+        "label": "COACH"
+      }
+    ]
+  },
+  {
+    "match_id": 233,
+    "home_team": "Sevilla",
+    "away_team": "Atletico Madrid",
+    "text": "At Ramón Sánchez-Pizjuán, Sevilla controlled the better phases and made that pressure count. Antoine Griezmann kept linking the play for the hosts, while Pablo Barrios attacked the spaces behind Atletico Madrid. Atletico Madrid still had threatening moments through Saúl Ñíguez, but the decisive passages belonged to Sevilla. Coach Luis García Plaza later spoke about how demanding the match had been.",
+    "sentiment": 1,
+    "entities": [
+      {
+        "text": "Sevilla",
+        "label": "TEAM"
+      },
+      {
+        "text": "Atletico Madrid",
+        "label": "TEAM"
+      },
+      {
+        "text": "Ramón Sánchez-Pizjuán",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Antoine Griezmann",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Pablo Barrios",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Saúl Ñíguez",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Luis García Plaza",
+        "label": "COACH"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Ramón Sánchez-Pizjuán",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Sevilla",
+        "label": "TEAM"
+      },
+      {
+        "text": "Antoine Griezmann",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Pablo Barrios",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Atletico Madrid",
+        "label": "TEAM"
+      },
+      {
+        "text": "Saúl Ñíguez",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Luis García Plaza",
+        "label": "COACH"
+      }
+    ]
+  },
+  {
+    "match_id": 234,
+    "home_team": "Manchester United",
+    "away_team": "Leeds",
+    "text": "Manchester United started with intent at Old Trafford, but Leeds punished the key moments much better. Bruno Fernandes helped the visitors settle into the match and Marcus Rashford attacked the spaces left behind as the game opened up. Although Crysencio Summerville gave the hosts hope for a while, Leeds handled the closing stages well enough to take the win. Coach Erik ten Hag later spoke about how demanding the match had been.",
+    "sentiment": -1,
+    "entities": [
+      {
+        "text": "Manchester United",
+        "label": "TEAM"
+      },
+      {
+        "text": "Leeds",
+        "label": "TEAM"
+      },
+      {
+        "text": "Old Trafford",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Bruno Fernandes",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Marcus Rashford",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Crysencio Summerville",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Erik ten Hag",
+        "label": "COACH"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Manchester United",
+        "label": "TEAM"
+      },
+      {
+        "text": "Old Trafford",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Leeds",
+        "label": "TEAM"
+      },
+      {
+        "text": "Bruno Fernandes",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Marcus Rashford",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Crysencio",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Summerville",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Erik ten Hag",
+        "label": "COACH"
+      }
+    ]
+  },
+  {
+    "match_id": 235,
+    "home_team": "PSG",
+    "away_team": "Liverpool",
+    "text": "At Parc des Princes, PSG controlled the better phases and made that pressure count. Kylian Mbappé kept linking the play for the hosts, while Vitinha attacked the spaces behind Liverpool. Liverpool still had threatening moments through Marco Asensio, but the decisive passages belonged to PSG. Coach Luis Enrique later spoke about how demanding the match had been.",
+    "sentiment": 1,
+    "entities": [
+      {
+        "text": "PSG",
+        "label": "TEAM"
+      },
+      {
+        "text": "Liverpool",
+        "label": "TEAM"
+      },
+      {
+        "text": "Parc des Princes",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Kylian Mbappé",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Vitinha",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Marco Asensio",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Luis Enrique",
+        "label": "COACH"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Parc des Princes",
+        "label": "STADIUM"
+      },
+      {
+        "text": "PSG",
+        "label": "TEAM"
+      },
+      {
+        "text": "Kylian Mbappé",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Vitinha",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Liverpool",
+        "label": "TEAM"
+      },
+      {
+        "text": "Marco Asensio",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Luis Enrique",
+        "label": "COACH"
+      }
+    ]
+  },
+  {
+    "match_id": 236,
+    "home_team": "Chelsea",
+    "away_team": "Lyon",
+    "text": "At Stamford Bridge, Chelsea controlled the better phases and made that pressure count. Cole Palmer kept linking the play for the hosts, while Reece James attacked the spaces behind Lyon. Lyon still had threatening moments through Alexandre Lacazette, but the decisive passages belonged to Chelsea. Coach Mauricio Pochettino later spoke about how demanding the match had been.",
+    "sentiment": 1,
+    "entities": [
+      {
+        "text": "Chelsea",
+        "label": "TEAM"
+      },
+      {
+        "text": "Lyon",
+        "label": "TEAM"
+      },
+      {
+        "text": "Stamford Bridge",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Cole Palmer",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Reece James",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Alexandre Lacazette",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Mauricio Pochettino",
+        "label": "COACH"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Stamford Bridge",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Chelsea",
+        "label": "TEAM"
+      },
+      {
+        "text": "Cole Palmer",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Reece James",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Lyon",
+        "label": "TEAM"
+      },
+      {
+        "text": "Alexandre Lacazette",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Mauricio Pochettino",
+        "label": "COACH"
+      }
+    ]
+  },
+  {
+    "match_id": 237,
+    "home_team": "Atletico Madrid",
+    "away_team": "Everton",
+    "text": "At Metropolitano Stadium, Atletico Madrid controlled the better phases and made that pressure count. Koke kept linking the play for the hosts, while Antoine Griezmann attacked the spaces behind Everton. Everton still had threatening moments through Dwight McNeil, but the decisive passages belonged to Atletico Madrid. Coach Diego Simeone later spoke about how demanding the match had been.",
+    "sentiment": 1,
+    "entities": [
+      {
+        "text": "Atletico Madrid",
+        "label": "TEAM"
+      },
+      {
+        "text": "Everton",
+        "label": "TEAM"
+      },
+      {
+        "text": "Metropolitano Stadium",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Koke",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Antoine Griezmann",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Dwight McNeil",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Diego Simeone",
+        "label": "COACH"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Metropolitano Stadium",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Atletico Madrid",
+        "label": "TEAM"
+      },
+      {
+        "text": "Koke",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Antoine Griezmann",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Everton",
+        "label": "TEAM"
+      },
+      {
+        "text": "Dwight McNeil",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Diego Simeone",
+        "label": "COACH"
+      }
+    ]
+  },
+  {
+    "match_id": 238,
+    "home_team": "Feyenoord",
+    "away_team": "Villarreal",
+    "text": "Feyenoord started with intent at De Kuip, but Villarreal punished the key moments much better. Calvin Stengs helped the visitors settle into the match and Santiago Gimenez attacked the spaces left behind as the game opened up. Although Gerard Moreno gave the hosts hope for a while, Villarreal handled the closing stages well enough to take the win. Coach Arne Slot later spoke about how demanding the match had been.",
+    "sentiment": -1,
+    "entities": [
+      {
+        "text": "Feyenoord",
+        "label": "TEAM"
+      },
+      {
+        "text": "Villarreal",
+        "label": "TEAM"
+      },
+      {
+        "text": "De Kuip",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Calvin Stengs",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Santiago Gimenez",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Gerard Moreno",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Arne Slot",
+        "label": "COACH"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Feyenoord",
+        "label": "TEAM"
+      },
+      {
+        "text": "De Kuip",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Villarreal",
+        "label": "TEAM"
+      },
+      {
+        "text": "Calvin Stengs",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Santiago Gimenez",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Gerard Moreno",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Arne Slot",
+        "label": "COACH"
+      }
+    ]
+  },
+  {
+    "match_id": 239,
+    "home_team": "Chelsea",
+    "away_team": "Fenerbahce",
+    "text": "At Stamford Bridge, Chelsea controlled the better phases and made that pressure count. Cole Palmer kept linking the play for the hosts, while Reece James attacked the spaces behind Fenerbahce. Fenerbahce still had threatening moments through Dusan Tadic, but the decisive passages belonged to Chelsea. Coach Mauricio Pochettino later spoke about how demanding the match had been.",
+    "sentiment": 1,
+    "entities": [
+      {
+        "text": "Chelsea",
+        "label": "TEAM"
+      },
+      {
+        "text": "Fenerbahce",
+        "label": "TEAM"
+      },
+      {
+        "text": "Stamford Bridge",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Cole Palmer",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Reece James",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Dusan Tadic",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Mauricio Pochettino",
+        "label": "COACH"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Stamford Bridge",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Chelsea",
+        "label": "TEAM"
+      },
+      {
+        "text": "Cole Palmer",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Reece James",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Fenerbahce",
+        "label": "TEAM"
+      },
+      {
+        "text": "Dusan Tadic",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Mauricio Pochettino",
+        "label": "COACH"
+      }
+    ]
+  },
+  {
+    "match_id": 240,
+    "home_team": "Leverkusen",
+    "away_team": "Tottenham Hotspur",
+    "text": "Neither Leverkusen nor Tottenham Hotspur managed to take full control at BayArena. Florian Wirtz gave one side momentum for a spell, then Jeremie Frimpong shifted it back the other way, and James Maddison kept the contest alive deep into the second half. The balance of the chances ultimately matched the draw. Coach Xabi Alonso later spoke about how demanding the match had been.",
+    "sentiment": 0,
+    "entities": [
+      {
+        "text": "Leverkusen",
+        "label": "TEAM"
+      },
+      {
+        "text": "Tottenham Hotspur",
+        "label": "TEAM"
+      },
+      {
+        "text": "BayArena",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Florian Wirtz",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Jeremie Frimpong",
+        "label": "PLAYER"
+      },
+      {
+        "text": "James Maddison",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Xabi Alonso",
+        "label": "COACH"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Leverkusen",
+        "label": "TEAM"
+      },
+      {
+        "text": "Tottenham Hotspur",
+        "label": "TEAM"
+      },
+      {
+        "text": "BayArena",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Florian Wirtz",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Jeremie Frimpong",
+        "label": "PLAYER"
+      },
+      {
+        "text": "James Maddison",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Xabi Alonso",
+        "label": "COACH"
+      }
+    ]
+  },
+  {
+    "match_id": 241,
+    "home_team": "Borussia Dortmund",
+    "away_team": "Inter",
+    "text": "Neither Borussia Dortmund nor Inter managed to take full control at Signal Iduna Park. Lautaro Martinez gave one side momentum for a spell, then Niclas Fullkrug shifted it back the other way, and Nicolo Barella kept the contest alive deep into the second half. The balance of the chances ultimately matched the draw. Coach Edin Terzic later spoke about how demanding the match had been.",
+    "sentiment": 0,
+    "entities": [
+      {
+        "text": "Borussia Dortmund",
+        "label": "TEAM"
+      },
+      {
+        "text": "Inter",
+        "label": "TEAM"
+      },
+      {
+        "text": "Signal Iduna Park",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Lautaro Martinez",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Niclas Fullkrug",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Nicolo Barella",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Edin Terzic",
+        "label": "COACH"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Borussia Dortmund",
+        "label": "TEAM"
+      },
+      {
+        "text": "Inter",
+        "label": "TEAM"
+      },
+      {
+        "text": "Signal Iduna Park",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Lautaro Martinez",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Niclas Fullkrug",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Nicolo Barella",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Edin Terzic",
+        "label": "COACH"
+      }
+    ]
+  },
+  {
+    "match_id": 242,
+    "home_team": "Aston Villa",
+    "away_team": "Fenerbahce",
+    "text": "At Villa Park, Aston Villa controlled the better phases and made that pressure count. Douglas Luiz kept linking the play for the hosts, while Ollie Watkins attacked the spaces behind Fenerbahce. Fenerbahce still had threatening moments through Dusan Tadic, but the decisive passages belonged to Aston Villa. Coach Unai Emery later spoke about how demanding the match had been.",
+    "sentiment": 1,
+    "entities": [
+      {
+        "text": "Aston Villa",
+        "label": "TEAM"
+      },
+      {
+        "text": "Fenerbahce",
+        "label": "TEAM"
+      },
+      {
+        "text": "Villa Park",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Douglas Luiz",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Ollie Watkins",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Dusan Tadic",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Unai Emery",
+        "label": "COACH"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Villa Park",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Aston Villa",
+        "label": "TEAM"
+      },
+      {
+        "text": "Douglas Luiz",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Ollie Watkins",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Fenerbahce",
+        "label": "TEAM"
+      },
+      {
+        "text": "Dusan Tadic",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Unai Emery",
+        "label": "COACH"
+      }
+    ]
+  },
+  {
+    "match_id": 243,
+    "home_team": "Everton",
+    "away_team": "Lille",
+    "text": "Everton started with intent at Goodison Park, but Lille punished the key moments much better. Dominic Calvert-Lewin helped the visitors settle into the match and Dwight McNeil attacked the spaces left behind as the game opened up. Although Leny Yoro gave the hosts hope for a while, Lille handled the closing stages well enough to take the win. Coach Sean Dyche later spoke about how demanding the match had been.",
+    "sentiment": -1,
+    "entities": [
+      {
+        "text": "Everton",
+        "label": "TEAM"
+      },
+      {
+        "text": "Lille",
+        "label": "TEAM"
+      },
+      {
+        "text": "Goodison Park",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Dominic Calvert-Lewin",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Dwight McNeil",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Leny Yoro",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Sean Dyche",
+        "label": "COACH"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Everton",
+        "label": "TEAM"
+      },
+      {
+        "text": "Goodison Park",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Lille",
+        "label": "TEAM"
+      },
+      {
+        "text": "Dominic Calvert-Lewin",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Dwight McNeil",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Leny Yoro",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Sean Dyche",
+        "label": "COACH"
+      }
+    ]
+  },
+  {
+    "match_id": 244,
+    "home_team": "Monaco",
+    "away_team": "Lazio",
+    "text": "At Stade Louis II, Monaco controlled the better phases and made that pressure count. Youssouf Fofana kept linking the play for the hosts, while Wissam Ben Yedder attacked the spaces behind Lazio. Lazio still had threatening moments through Ciro Immobile, but the decisive passages belonged to Monaco. Coach Adi Hutter later spoke about how demanding the match had been.",
+    "sentiment": 1,
+    "entities": [
+      {
+        "text": "Monaco",
+        "label": "TEAM"
+      },
+      {
+        "text": "Lazio",
+        "label": "TEAM"
+      },
+      {
+        "text": "Stade Louis II",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Youssouf Fofana",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Wissam Ben Yedder",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Ciro Immobile",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Adi Hutter",
+        "label": "COACH"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Stade Louis II",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Monaco",
+        "label": "TEAM"
+      },
+      {
+        "text": "Youssouf Fofana",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Wissam Ben Yedder",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Lazio",
+        "label": "TEAM"
+      },
+      {
+        "text": "Ciro Immobile",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Adi Hutter",
+        "label": "COACH"
+      }
+    ]
+  },
+  {
+    "match_id": 245,
+    "home_team": "Leverkusen",
+    "away_team": "Wolverhampton Wanderers",
+    "text": "Neither Leverkusen nor Wolverhampton Wanderers managed to take full control at BayArena. Jeremie Frimpong gave one side momentum for a spell, then Florian Wirtz shifted it back the other way, and Pedro Neto kept the contest alive deep into the second half. The balance of the chances ultimately matched the draw. Coach Xabi Alonso later spoke about how demanding the match had been.",
+    "sentiment": 0,
+    "entities": [
+      {
+        "text": "Leverkusen",
+        "label": "TEAM"
+      },
+      {
+        "text": "Wolverhampton Wanderers",
+        "label": "TEAM"
+      },
+      {
+        "text": "BayArena",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Jeremie Frimpong",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Florian Wirtz",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Pedro Neto",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Xabi Alonso",
+        "label": "COACH"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Leverkusen",
+        "label": "TEAM"
+      },
+      {
+        "text": "Wolverhampton Wanderers",
+        "label": "TEAM"
+      },
+      {
+        "text": "BayArena",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Jeremie Frimpong",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Florian Wirtz",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Pedro Neto",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Xabi Alonso",
+        "label": "COACH"
+      }
+    ]
+  },
+  {
+    "match_id": 246,
+    "home_team": "Valencia",
+    "away_team": "Porto",
+    "text": "At Mestalla, Valencia controlled the better phases and made that pressure count. Pepelu kept linking the play for the hosts, while Javi Guerra attacked the spaces behind Porto. Porto still had threatening moments through Galeno, but the decisive passages belonged to Valencia. Coach Ruben Baraja later spoke about how demanding the match had been.",
+    "sentiment": 1,
+    "entities": [
+      {
+        "text": "Valencia",
+        "label": "TEAM"
+      },
+      {
+        "text": "Porto",
+        "label": "TEAM"
+      },
+      {
+        "text": "Mestalla",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Pepelu",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Javi Guerra",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Galeno",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Ruben Baraja",
+        "label": "COACH"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Mestalla",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Valencia",
+        "label": "TEAM"
+      },
+      {
+        "text": "Pepelu",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Javi Guerra",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Porto",
+        "label": "TEAM"
+      },
+      {
+        "text": "Galeno",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Ruben Baraja",
+        "label": "COACH"
+      }
+    ]
+  },
+  {
+    "match_id": 247,
+    "home_team": "Tottenham Hotspur",
+    "away_team": "Everton",
+    "text": "At Tottenham Hotspur Stadium, Tottenham Hotspur controlled the better phases and made that pressure count. James Maddison kept linking the play for the hosts, while Cristian Romero attacked the spaces behind Everton. Everton still had threatening moments through Dominic Calvert-Lewin, but the decisive passages belonged to Tottenham Hotspur. Coach Ange Postecoglou later spoke about how demanding the match had been.",
+    "sentiment": 1,
+    "entities": [
+      {
+        "text": "Tottenham Hotspur",
+        "label": "TEAM"
+      },
+      {
+        "text": "Everton",
+        "label": "TEAM"
+      },
+      {
+        "text": "Tottenham Hotspur Stadium",
+        "label": "STADIUM"
+      },
+      {
+        "text": "James Maddison",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Cristian Romero",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Dominic Calvert-Lewin",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Ange Postecoglou",
+        "label": "COACH"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Tottenham Hotspur Stadium",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Tottenham Hotspur",
+        "label": "TEAM"
+      },
+      {
+        "text": "James Maddison",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Cristian Romero",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Everton",
+        "label": "TEAM"
+      },
+      {
+        "text": "Dominic Calvert-Lewin",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Ange Postecoglou",
+        "label": "COACH"
+      }
+    ]
+  },
+  {
+    "match_id": 248,
+    "home_team": "Arsenal",
+    "away_team": "Valencia",
+    "text": "At Emirates Stadium, Arsenal controlled the better phases and made that pressure count. Martin Odegaard kept linking the play for the hosts, while Bukayo Saka attacked the spaces behind Valencia. Valencia still had threatening moments through Pepelu, but the decisive passages belonged to Arsenal. Coach Mikel Arteta later spoke about how demanding the match had been.",
+    "sentiment": 1,
+    "entities": [
+      {
+        "text": "Arsenal",
+        "label": "TEAM"
+      },
+      {
+        "text": "Valencia",
+        "label": "TEAM"
+      },
+      {
+        "text": "Emirates Stadium",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Martin Odegaard",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Bukayo Saka",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Pepelu",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Mikel Arteta",
+        "label": "COACH"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Emirates Stadium",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Arsenal",
+        "label": "TEAM"
+      },
+      {
+        "text": "Martin Odegaard",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Bukayo Saka",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Valencia",
+        "label": "TEAM"
+      },
+      {
+        "text": "Pepelu",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Mikel Arteta",
+        "label": "COACH"
+      }
+    ]
+  },
+  {
+    "match_id": 249,
+    "home_team": "Chelsea",
+    "away_team": "Porto",
+    "text": "Chelsea started with intent at Stamford Bridge, but Porto punished the key moments much better. Cole Palmer helped the visitors settle into the match and Enzo Fernandez attacked the spaces left behind as the game opened up. Although Alan Varela gave the hosts hope for a while, Porto handled the closing stages well enough to take the win. Coach Mauricio Pochettino later spoke about how demanding the match had been.",
+    "sentiment": -1,
+    "entities": [
+      {
+        "text": "Chelsea",
+        "label": "TEAM"
+      },
+      {
+        "text": "Porto",
+        "label": "TEAM"
+      },
+      {
+        "text": "Stamford Bridge",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Cole Palmer",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Enzo Fernandez",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Alan Varela",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Mauricio Pochettino",
+        "label": "COACH"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Chelsea",
+        "label": "TEAM"
+      },
+      {
+        "text": "Stamford Bridge",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Porto",
+        "label": "TEAM"
+      },
+      {
+        "text": "Cole Palmer",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Enzo Fernandez",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Alan Varela",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Mauricio Pochettino",
+        "label": "COACH"
+      }
+    ]
+  },
+  {
+    "match_id": 250,
+    "home_team": "Valencia",
+    "away_team": "Aston Villa",
+    "text": "Neither Valencia nor Aston Villa managed to take full control at Mestalla. Morgan Rogers gave one side momentum for a spell, then Youri Tielemans shifted it back the other way, and John McGinn kept the contest alive deep into the second half. The balance of the chances ultimately matched the draw. Coach Carlos Corberán later spoke about how demanding the match had been.",
+    "sentiment": 0,
+    "entities": [
+      {
+        "text": "Valencia",
+        "label": "TEAM"
+      },
+      {
+        "text": "Aston Villa",
+        "label": "TEAM"
+      },
+      {
+        "text": "Mestalla",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Morgan Rogers",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Youri Tielemans",
+        "label": "PLAYER"
+      },
+      {
+        "text": "John McGinn",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Carlos Corberán",
+        "label": "COACH"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Valencia",
+        "label": "TEAM"
+      },
+      {
+        "text": "Aston Villa",
+        "label": "TEAM"
+      },
+      {
+        "text": "Mestalla",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Morgan Rogers",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Youri Tielemans",
+        "label": "PLAYER"
+      },
+      {
+        "text": "John McGinn",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Carlos Corberán",
+        "label": "COACH"
+      }
+    ]
+  },
+  {
+    "match_id": 251,
+    "home_team": "Newcastle United",
+    "away_team": "Atletico Madrid",
+    "text": "Neither Newcastle United nor Atletico Madrid managed to take full control at St. James’ Park. Julián Alvarez gave one side momentum for a spell, then Antoine Griezmann shifted it back the other way, and Sandro Tonali kept the contest alive deep into the second half. The balance of the chances ultimately matched the draw. Coach Eddie Howe later spoke about how demanding the match had been.",
+    "sentiment": 0,
+    "entities": [
+      {
+        "text": "Newcastle United",
+        "label": "TEAM"
+      },
+      {
+        "text": "Atletico Madrid",
+        "label": "TEAM"
+      },
+      {
+        "text": "St. James’ Park",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Julián Alvarez",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Antoine Griezmann",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Sandro Tonali",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Eddie Howe",
+        "label": "COACH"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Newcastle United",
+        "label": "TEAM"
+      },
+      {
+        "text": "Atletico Madrid",
+        "label": "TEAM"
+      },
+      {
+        "text": "St. James’ Park",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Julián Alvarez",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Antoine Griezmann",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Sandro Tonali",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Eddie",
+        "label": "COACH"
+      },
+      {
+        "text": "Howe",
+        "label": "PLAYER"
+      }
+    ]
+  },
+  {
+    "match_id": 252,
+    "home_team": "Barcelona",
+    "away_team": "Porto",
+    "text": "At Spotify Camp Nou, Barcelona controlled the better phases and made that pressure count. Alan Varela kept linking the play for the hosts, while Rodrigo Mora attacked the spaces behind Porto. Porto still had threatening moments through Pedri, but the decisive passages belonged to Barcelona. Coach Hansi Flick later spoke about how demanding the match had been.",
+    "sentiment": 1,
+    "entities": [
+      {
+        "text": "Barcelona",
+        "label": "TEAM"
+      },
+      {
+        "text": "Porto",
+        "label": "TEAM"
+      },
+      {
+        "text": "Spotify Camp Nou",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Alan Varela",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Rodrigo Mora",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Pedri",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Hansi Flick",
+        "label": "COACH"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Spotify Camp Nou",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Barcelona",
+        "label": "TEAM"
+      },
+      {
+        "text": "Alan Varela",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Rodrigo Mora",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Porto",
+        "label": "TEAM"
+      },
+      {
+        "text": "Pedri",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Hansi Flick",
+        "label": "COACH"
+      }
+    ]
+  },
+  {
+    "match_id": 253,
+    "home_team": "Feyenoord",
+    "away_team": "Liverpool",
+    "text": "Feyenoord started with intent at De Kuip, but Liverpool punished the key moments much better. Florian Wirtz helped the visitors settle into the match and Cody Gakpo attacked the spaces left behind as the game opened up. Although Florian Wirtz gave the hosts hope for a while, Liverpool handled the closing stages well enough to take the win. Coach Robin van Persie later spoke about how demanding the match had been.",
+    "sentiment": -1,
+    "entities": [
+      {
+        "text": "Feyenoord",
+        "label": "TEAM"
+      },
+      {
+        "text": "Liverpool",
+        "label": "TEAM"
+      },
+      {
+        "text": "De Kuip",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Florian Wirtz",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Cody Gakpo",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Robin van Persie",
+        "label": "COACH"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Feyenoord",
+        "label": "TEAM"
+      },
+      {
+        "text": "De Kuip",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Liverpool",
+        "label": "TEAM"
+      },
+      {
+        "text": "Florian Wirtz",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Cody Gakpo",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Robin van Persie",
+        "label": "COACH"
+      }
+    ]
+  },
+  {
+    "match_id": 254,
+    "home_team": "Roma",
+    "away_team": "Juventus",
+    "text": "Neither Roma nor Juventus managed to take full control at Stadio Olimpico. Paulo Dybala gave one side momentum for a spell, then Lorenzo Pellegrini shifted it back the other way, and Federico Chiesa kept the contest alive deep into the second half. The balance of the chances ultimately matched the draw.",
+    "sentiment": 0,
+    "entities": [
+      {
+        "text": "Roma",
+        "label": "TEAM"
+      },
+      {
+        "text": "Juventus",
+        "label": "TEAM"
+      },
+      {
+        "text": "Stadio Olimpico",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Paulo Dybala",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Lorenzo Pellegrini",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Federico Chiesa",
+        "label": "PLAYER"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Roma",
+        "label": "TEAM"
+      },
+      {
+        "text": "Juventus",
+        "label": "TEAM"
+      },
+      {
+        "text": "Stadio Olimpico",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Paulo Dybala",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Lorenzo Pellegrini",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Federico Chiesa",
+        "label": "PLAYER"
+      }
+    ]
+  },
+  {
+    "match_id": 255,
+    "home_team": "RC Lens",
+    "away_team": "AS Monaco",
+    "text": "RC Lens started with intent at RC Lens Stadium, but AS Monaco punished the key moments much better. Aleksandr Golovin helped the visitors settle into the match and Wissam Ben Yedder attacked the spaces left behind as the game opened up. Although Elye Wahi gave the hosts hope for a while, AS Monaco handled the closing stages well enough to take the win.",
+    "sentiment": -1,
+    "entities": [
+      {
+        "text": "RC Lens",
+        "label": "TEAM"
+      },
+      {
+        "text": "AS Monaco",
+        "label": "TEAM"
+      },
+      {
+        "text": "RC Lens Stadium",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Aleksandr Golovin",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Wissam Ben Yedder",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Elye Wahi",
+        "label": "PLAYER"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "RC Lens",
+        "label": "TEAM"
+      },
+      {
+        "text": "RC Lens Stadium",
+        "label": "STADIUM"
+      },
+      {
+        "text": "AS Monaco",
+        "label": "TEAM"
+      },
+      {
+        "text": "Aleksandr Golovin",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Wissam Ben Yedder",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Elye Wahi",
+        "label": "PLAYER"
+      }
+    ]
+  },
+  {
+    "match_id": 256,
+    "home_team": "Borussia Dormundt",
+    "away_team": "Atalanta",
+    "text": "At Borussia Dormundt Stadium, Borussia Dormundt controlled the better phases and made that pressure count. Julian Brandt kept linking the play for the hosts, while Marco Reus attacked the spaces behind Atalanta. Atalanta still had threatening moments through Niclas Füllkrug, but the decisive passages belonged to Borussia Dormundt.",
+    "sentiment": 1,
+    "entities": [
+      {
+        "text": "Borussia Dormundt",
+        "label": "TEAM"
+      },
+      {
+        "text": "Atalanta",
+        "label": "TEAM"
+      },
+      {
+        "text": "Borussia Dormundt Stadium",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Julian Brandt",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Marco Reus",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Niclas Füllkrug",
+        "label": "PLAYER"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Borussia Dormundt Stadium",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Borussia",
+        "label": "TEAM"
+      },
+      {
+        "text": "Dormundt",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Julian Brandt",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Marco Reus",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Atalanta",
+        "label": "TEAM"
+      },
+      {
+        "text": "Niclas Füllkrug",
+        "label": "PLAYER"
+      }
+    ]
+  },
+  {
+    "match_id": 257,
+    "home_team": "Monaco",
+    "away_team": "Real Madrid",
+    "text": "Neither Monaco nor Real Madrid managed to take full control at Stade Louis II. Wissam Ben Yedder gave one side momentum for a spell, then Youssouf Fofana shifted it back the other way, and Jude Bellingham kept the contest alive deep into the second half. The balance of the chances ultimately matched the draw. Coach Adi Hutter later spoke about how demanding the match had been.",
+    "sentiment": 0,
+    "entities": [
+      {
+        "text": "Monaco",
+        "label": "TEAM"
+      },
+      {
+        "text": "Real Madrid",
+        "label": "TEAM"
+      },
+      {
+        "text": "Stade Louis II",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Wissam Ben Yedder",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Youssouf Fofana",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Jude Bellingham",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Adi Hutter",
+        "label": "COACH"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Monaco",
+        "label": "TEAM"
+      },
+      {
+        "text": "Real Madrid",
+        "label": "TEAM"
+      },
+      {
+        "text": "Stade Louis II",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Wissam Ben Yedder",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Youssouf Fofana",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Jude Bellingham",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Adi Hutter",
+        "label": "COACH"
+      }
+    ]
+  },
+  {
+    "match_id": 258,
+    "home_team": "Milan",
+    "away_team": "Chelsea",
+    "text": "At San Siro, Milan controlled the better phases and made that pressure count. Rafael Leao kept linking the play for the hosts, while Theo Hernandez attacked the spaces behind Chelsea. Chelsea still had threatening moments through Nicolas Jackson, but the decisive passages belonged to Milan. Coach Stefano Pioli later spoke about how demanding the match had been.",
+    "sentiment": 1,
+    "entities": [
+      {
+        "text": "Milan",
+        "label": "TEAM"
+      },
+      {
+        "text": "Chelsea",
+        "label": "TEAM"
+      },
+      {
+        "text": "San Siro",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Rafael Leao",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Theo Hernandez",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Nicolas Jackson",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Stefano Pioli",
+        "label": "COACH"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "San Siro",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Milan",
+        "label": "TEAM"
+      },
+      {
+        "text": "Rafael Leao",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Theo Hernandez",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Chelsea",
+        "label": "TEAM"
+      },
+      {
+        "text": "Nicolas Jackson",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Stefano Pioli",
+        "label": "COACH"
+      }
+    ]
+  },
+  {
+    "match_id": 259,
+    "home_team": "Manchester City",
+    "away_team": "Monaco",
+    "text": "At Etihad Stadium, Manchester City controlled the better phases and made that pressure count. Kevin De Bruyne kept linking the play for the hosts, while Phil Foden attacked the spaces behind Monaco. Monaco still had threatening moments through Takumi Minamino, but the decisive passages belonged to Manchester City. Coach Pep Guardiola later spoke about how demanding the match had been.",
+    "sentiment": 1,
+    "entities": [
+      {
+        "text": "Manchester City",
+        "label": "TEAM"
+      },
+      {
+        "text": "Monaco",
+        "label": "TEAM"
+      },
+      {
+        "text": "Etihad Stadium",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Kevin De Bruyne",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Phil Foden",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Takumi Minamino",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Pep Guardiola",
+        "label": "COACH"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Etihad Stadium",
+        "label": "STADIUM"
+      },
+      {
+        "text": "Manchester City",
+        "label": "TEAM"
+      },
+      {
+        "text": "Kevin De Bruyne",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Phil Foden",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Monaco",
+        "label": "TEAM"
+      },
+      {
+        "text": "Takumi Minamino",
+        "label": "PLAYER"
+      },
+      {
+        "text": "Pep Guardiola",
+        "label": "COACH"
+      }
+    ]
+  }
+]

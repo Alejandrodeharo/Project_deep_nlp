@@ -7,43 +7,6 @@ def _safe_div(numerator: float, denominator: float) -> float:
     return numerator / denominator if denominator else 0.0
 
 
-def compute_sentiment_metrics(
-    y_true: Sequence[Any],
-    y_pred: Sequence[Any],
-    labels: Sequence[Any],
-) -> Dict[str, float]:
-    if len(y_true) != len(y_pred):
-        raise ValueError("y_true and y_pred must have the same length.")
-
-    total = len(y_true)
-    accuracy = _safe_div(sum(int(true == pred) for true, pred in zip(y_true, y_pred)), total)
-
-    precisions: List[float] = []
-    recalls: List[float] = []
-    f1s: List[float] = []
-
-    for label in labels:
-        tp = sum(1 for true, pred in zip(y_true, y_pred) if true == label and pred == label)
-        fp = sum(1 for true, pred in zip(y_true, y_pred) if true != label and pred == label)
-        fn = sum(1 for true, pred in zip(y_true, y_pred) if true == label and pred != label)
-
-        precision = _safe_div(tp, tp + fp)
-        recall = _safe_div(tp, tp + fn)
-        f1 = _safe_div(2 * precision * recall, precision + recall)
-
-        precisions.append(precision)
-        recalls.append(recall)
-        f1s.append(f1)
-
-    return {
-        "accuracy": accuracy,
-        "macro_precision": sum(precisions) / len(precisions) if precisions else 0.0,
-        "macro_recall": sum(recalls) / len(recalls) if recalls else 0.0,
-        "macro_f1": sum(f1s) / len(f1s) if f1s else 0.0,
-        "balanced_accuracy": sum(recalls) / len(recalls) if recalls else 0.0,
-    }
-
-
 def _bio_to_entities(tags: Sequence[str]) -> Set[Tuple[int, int, str]]:
     entities: Set[Tuple[int, int, str]] = set()
     current_label: str | None = None

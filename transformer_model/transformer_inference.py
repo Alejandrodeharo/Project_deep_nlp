@@ -11,13 +11,6 @@ from utils import tokenize_with_offsets
 
 
 @dataclass
-class SentimentPrediction:
-    value: int
-    confidence: float
-    probabilities: Dict[str, float]
-
-
-@dataclass
 class NERPrediction:
     entities: List[Dict[str, str]]
     tags: List[str]
@@ -106,50 +99,6 @@ def decode_bio_predictions(
     return entities
 
 
-class TransformerSentimentInferencePipeline:
-    def __init__(self, checkpoint_path: str, device: torch.device) -> None:
-        from transformers import AutoModelForSequenceClassification, AutoTokenizer
-
-        self.metadata = load_enhanced_metadata(checkpoint_path)
-        self.tokenizer = AutoTokenizer.from_pretrained(checkpoint_path, use_fast=True)
-        self.model = AutoModelForSequenceClassification.from_pretrained(checkpoint_path).to(device)
-        self.model.eval()
-        self.device = device
-
-        self.id2value = {
-            int(key): int(value)
-            for key, value in self.metadata["id2value"].items()
-        }
-        self.id2label_name = {
-            int(key): str(value)
-            for key, value in self.metadata["id2label_name"].items()
-        }
-        self.max_length = int(self.metadata.get("max_length", 256))
-
-    def predict(self, text: str) -> SentimentPrediction:
-        encoded = self.tokenizer(
-            text,
-            return_tensors="pt",
-            truncation=True,
-            max_length=self.max_length,
-        )
-        encoded = {key: value.to(self.device) for key, value in encoded.items()}
-
-        with torch.no_grad():
-            logits = self.model(**encoded).logits
-            probabilities = torch.softmax(logits, dim=-1)[0]
-
-        pred_idx = int(probabilities.argmax().item())
-        return SentimentPrediction(
-            value=self.id2value[pred_idx],
-            confidence=float(probabilities[pred_idx].item()),
-            probabilities={
-                self.id2label_name[idx]: float(prob.item())
-                for idx, prob in enumerate(probabilities)
-            },
-        )
-
-
 class TransformerNERInferencePipeline:
     def __init__(self, checkpoint_path: str, device: torch.device) -> None:
         from transformers import AutoModelForTokenClassification, AutoTokenizer
@@ -186,8 +135,6 @@ class TransformerNERInferencePipeline:
             logits = self.model(**encoded).logits[0]
 
         pred_ids = logits.argmax(dim=-1).tolist()
-        word_ids = encoded["input_ids"].new_tensor([])
-        del word_ids
         tokenizer_output = self.tokenizer(
             tokens,
             is_split_into_words=True,
