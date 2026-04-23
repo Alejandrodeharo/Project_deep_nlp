@@ -170,9 +170,6 @@ def build_model(
 
 
 def decode_bio_predictions_from_tokens(tokens: List[str], tags: List[str]) -> List[Tuple[str, str]]:
-    """
-    Reconstruye entidades exactas como pares (texto, label).
-    """
     entities: List[Tuple[str, str]] = []
     current_label = None
     current_tokens: List[str] = []
@@ -211,25 +208,18 @@ def decode_bio_predictions_from_tokens(tokens: List[str], tags: List[str]) -> Li
     return entities
 
 
-def compute_ner_entity_metrics_from_batch(
+def calculate_entity_metrics_from_sequences(
     pred_ids: torch.Tensor,
     labels: torch.Tensor,
     lengths: torch.Tensor,
     token_lists: List[List[str]],
     idx2tag: Dict[int, str],
 ) -> Dict[str, float]:
-    """
-    Métricas exactas a nivel de entidad:
-    - entity_precision
-    - entity_recall
-    - entity_f1
-    - sample_exact_match
-    """
     total_pred_entities = 0
     total_gold_entities = 0
     total_correct_entities = 0
-    sample_exact_matches = 0
-    num_samples = len(token_lists)
+    total_sample_exact = 0
+    total_samples = len(token_lists)
 
     for i in range(len(token_lists)):
         seq_len = int(lengths[i].item())
@@ -241,27 +231,18 @@ def compute_ner_entity_metrics_from_batch(
         gold_tags = [idx2tag[int(tag_id)] for tag_id in gold_tag_ids]
         pred_tags = [idx2tag[int(tag_id)] for tag_id in pred_tag_ids]
 
-        gold_entities = decode_bio_predictions_from_tokens(tokens, gold_tags)
-        pred_entities = decode_bio_predictions_from_tokens(tokens, pred_tags)
+        gold_entities = set(decode_bio_predictions_from_tokens(tokens, gold_tags))
+        pred_entities = set(decode_bio_predictions_from_tokens(tokens, pred_tags))
 
-        gold_set = set(gold_entities)
-        pred_set = set(pred_entities)
-
-        total_gold_entities += len(gold_set)
-        total_pred_entities += len(pred_set)
-        total_correct_entities += len(gold_set & pred_set)
-
-        if gold_set == pred_set:
-            sample_exact_matches += 1
+        total_gold_entities += len(gold_entities)
+        total_pred_entities += len(pred_entities)
+        total_correct_entities += len(gold_entities & pred_entities)
+        total_sample_exact += int(gold_entities == pred_entities)
 
     precision = total_correct_entities / total_pred_entities if total_pred_entities > 0 else 0.0
     recall = total_correct_entities / total_gold_entities if total_gold_entities > 0 else 0.0
-    f1 = (
-        2 * precision * recall / (precision + recall)
-        if (precision + recall) > 0
-        else 0.0
-    )
-    sample_exact_match = sample_exact_matches / num_samples if num_samples > 0 else 0.0
+    f1 = 2 * precision * recall / (precision + recall) if (precision + recall) > 0 else 0.0
+    sample_exact_match = total_sample_exact / total_samples if total_samples > 0 else 0.0
 
     return {
         "entity_precision": float(precision),
@@ -283,7 +264,7 @@ def calculate_loss_and_counts(
         preds = logits.argmax(dim=-1)
         correct = (preds == labels).sum().item()
         total = labels.numel()
-        return loss, correct, total
+        return loss, correct, total, preds
 
     if task == "ner":
         try:
@@ -295,7 +276,7 @@ def calculate_loss_and_counts(
         mask = labels != pad_tag_idx
         correct = ((preds == labels) & mask).sum().item()
         total = mask.sum().item()
-        return loss, correct, total
+        return loss, correct, total, preds
 
     raise ValueError(f"Unsupported task: {task}")
 
@@ -315,6 +296,7 @@ def train_step(
     device: torch.device,
     task: str,
     pad_tag_idx: int = 0,
+    idx2tag: Optional[Dict[int, str]] = None,
 ) -> Tuple[float, float, Dict[str, float]]:
     model.train()
 
@@ -337,7 +319,7 @@ def train_step(
         optimizer.zero_grad()
 
         logits = model(inputs, lengths)
-        loss, batch_correct, batch_total = calculate_loss_and_counts(
+        loss, batch_correct, batch_total, preds = calculate_loss_and_counts(
             logits=logits,
             labels=labels,
             criterion=criterion,
@@ -355,34 +337,17 @@ def train_step(
         total_batches += 1
 
         if task == "ner":
-            pred_ids = logits.argmax(dim=-1).detach().cpu()
-            labels_cpu = labels.detach().cpu()
-            lengths_cpu = lengths.detach().cpu()
-            token_lists = batch[3]
-            idx2tag = train_data.dataset.tag2idx if hasattr(train_data.dataset, "tag2idx") else None
-
             if idx2tag is None:
-                raise ValueError("NER dataset must expose tag2idx for metrics computation.")
+                raise ValueError("idx2tag must be provided for NER metrics computation.")
 
-            idx2tag = {idx: tag for tag, idx in idx2tag.items()}
+            token_lists = batch[3]
 
-            metrics = compute_ner_entity_metrics_from_batch(
-                pred_ids=pred_ids,
-                labels=labels_cpu,
-                lengths=lengths_cpu,
-                token_lists=token_lists,
-                idx2tag=idx2tag,
-            )
-
-            # Reacumulamos a nivel batch usando cuentas derivadas
-            # para no depender del promedio batch a batch.
-            # Volvemos a reconstruir sets para contar correctamente.
             for i in range(len(token_lists)):
-                seq_len = int(lengths_cpu[i].item())
+                seq_len = int(lengths[i].item())
                 tokens = token_lists[i]
 
-                gold_tag_ids = labels_cpu[i][:seq_len].tolist()
-                pred_tag_ids = pred_ids[i][:seq_len].tolist()
+                gold_tag_ids = labels[i][:seq_len].detach().cpu().tolist()
+                pred_tag_ids = preds[i][:seq_len].detach().cpu().tolist()
 
                 gold_tags = [idx2tag[int(tag_id)] for tag_id in gold_tag_ids]
                 pred_tags = [idx2tag[int(tag_id)] for tag_id in pred_tag_ids]
@@ -402,22 +367,10 @@ def train_step(
     extra_metrics: Dict[str, float] = {}
 
     if task == "ner":
-        precision = (
-            ner_total_correct_entities / ner_total_pred_entities
-            if ner_total_pred_entities > 0 else 0.0
-        )
-        recall = (
-            ner_total_correct_entities / ner_total_gold_entities
-            if ner_total_gold_entities > 0 else 0.0
-        )
-        f1 = (
-            2 * precision * recall / (precision + recall)
-            if (precision + recall) > 0 else 0.0
-        )
-        sample_exact = (
-            ner_total_sample_exact / ner_total_samples
-            if ner_total_samples > 0 else 0.0
-        )
+        precision = ner_total_correct_entities / ner_total_pred_entities if ner_total_pred_entities > 0 else 0.0
+        recall = ner_total_correct_entities / ner_total_gold_entities if ner_total_gold_entities > 0 else 0.0
+        f1 = 2 * precision * recall / (precision + recall) if (precision + recall) > 0 else 0.0
+        sample_exact = ner_total_sample_exact / ner_total_samples if ner_total_samples > 0 else 0.0
 
         extra_metrics = {
             "entity_precision": float(precision),
@@ -450,6 +403,7 @@ def val_step(
     device: torch.device,
     task: str,
     pad_tag_idx: int = 0,
+    idx2tag: Optional[Dict[int, str]] = None,
 ) -> Tuple[float, float, Dict[str, float]]:
     model.eval()
 
@@ -470,7 +424,7 @@ def val_step(
         lengths = batch[2].to(device)
 
         logits = model(inputs, lengths)
-        loss, batch_correct, batch_total = calculate_loss_and_counts(
+        loss, batch_correct, batch_total, preds = calculate_loss_and_counts(
             logits=logits,
             labels=labels,
             criterion=criterion,
@@ -484,23 +438,17 @@ def val_step(
         total_batches += 1
 
         if task == "ner":
-            pred_ids = logits.argmax(dim=-1).detach().cpu()
-            labels_cpu = labels.detach().cpu()
-            lengths_cpu = lengths.detach().cpu()
-            token_lists = batch[3]
-            idx2tag = val_data.dataset.tag2idx if hasattr(val_data.dataset, "tag2idx") else None
-
             if idx2tag is None:
-                raise ValueError("NER dataset must expose tag2idx for metrics computation.")
+                raise ValueError("idx2tag must be provided for NER metrics computation.")
 
-            idx2tag = {idx: tag for tag, idx in idx2tag.items()}
+            token_lists = batch[3]
 
             for i in range(len(token_lists)):
-                seq_len = int(lengths_cpu[i].item())
+                seq_len = int(lengths[i].item())
                 tokens = token_lists[i]
 
-                gold_tag_ids = labels_cpu[i][:seq_len].tolist()
-                pred_tag_ids = pred_ids[i][:seq_len].tolist()
+                gold_tag_ids = labels[i][:seq_len].detach().cpu().tolist()
+                pred_tag_ids = preds[i][:seq_len].detach().cpu().tolist()
 
                 gold_tags = [idx2tag[int(tag_id)] for tag_id in gold_tag_ids]
                 pred_tags = [idx2tag[int(tag_id)] for tag_id in pred_tag_ids]
@@ -520,22 +468,10 @@ def val_step(
     extra_metrics: Dict[str, float] = {}
 
     if task == "ner":
-        precision = (
-            ner_total_correct_entities / ner_total_pred_entities
-            if ner_total_pred_entities > 0 else 0.0
-        )
-        recall = (
-            ner_total_correct_entities / ner_total_gold_entities
-            if ner_total_gold_entities > 0 else 0.0
-        )
-        f1 = (
-            2 * precision * recall / (precision + recall)
-            if (precision + recall) > 0 else 0.0
-        )
-        sample_exact = (
-            ner_total_sample_exact / ner_total_samples
-            if ner_total_samples > 0 else 0.0
-        )
+        precision = ner_total_correct_entities / ner_total_pred_entities if ner_total_pred_entities > 0 else 0.0
+        recall = ner_total_correct_entities / ner_total_gold_entities if ner_total_gold_entities > 0 else 0.0
+        f1 = 2 * precision * recall / (precision + recall) if (precision + recall) > 0 else 0.0
+        sample_exact = ner_total_sample_exact / ner_total_samples if ner_total_samples > 0 else 0.0
 
         extra_metrics = {
             "entity_precision": float(precision),
@@ -571,6 +507,7 @@ def test_step(
     device: torch.device,
     task: str,
     pad_tag_idx: int = 0,
+    idx2tag: Optional[Dict[int, str]] = None,
 ) -> Tuple[float, float, Dict[str, float]]:
     model.eval()
 
@@ -591,7 +528,7 @@ def test_step(
         lengths = batch[2].to(device)
 
         logits = model(inputs, lengths)
-        loss, batch_correct, batch_total = calculate_loss_and_counts(
+        loss, batch_correct, batch_total, preds = calculate_loss_and_counts(
             logits=logits,
             labels=labels,
             criterion=criterion,
@@ -605,23 +542,17 @@ def test_step(
         total_batches += 1
 
         if task == "ner":
-            pred_ids = logits.argmax(dim=-1).detach().cpu()
-            labels_cpu = labels.detach().cpu()
-            lengths_cpu = lengths.detach().cpu()
-            token_lists = batch[3]
-            idx2tag = test_data.dataset.tag2idx if hasattr(test_data.dataset, "tag2idx") else None
-
             if idx2tag is None:
-                raise ValueError("NER dataset must expose tag2idx for metrics computation.")
+                raise ValueError("idx2tag must be provided for NER metrics computation.")
 
-            idx2tag = {idx: tag for tag, idx in idx2tag.items()}
+            token_lists = batch[3]
 
             for i in range(len(token_lists)):
-                seq_len = int(lengths_cpu[i].item())
+                seq_len = int(lengths[i].item())
                 tokens = token_lists[i]
 
-                gold_tag_ids = labels_cpu[i][:seq_len].tolist()
-                pred_tag_ids = pred_ids[i][:seq_len].tolist()
+                gold_tag_ids = labels[i][:seq_len].detach().cpu().tolist()
+                pred_tag_ids = preds[i][:seq_len].detach().cpu().tolist()
 
                 gold_tags = [idx2tag[int(tag_id)] for tag_id in gold_tag_ids]
                 pred_tags = [idx2tag[int(tag_id)] for tag_id in pred_tag_ids]
@@ -641,22 +572,10 @@ def test_step(
     extra_metrics: Dict[str, float] = {}
 
     if task == "ner":
-        precision = (
-            ner_total_correct_entities / ner_total_pred_entities
-            if ner_total_pred_entities > 0 else 0.0
-        )
-        recall = (
-            ner_total_correct_entities / ner_total_gold_entities
-            if ner_total_gold_entities > 0 else 0.0
-        )
-        f1 = (
-            2 * precision * recall / (precision + recall)
-            if (precision + recall) > 0 else 0.0
-        )
-        sample_exact = (
-            ner_total_sample_exact / ner_total_samples
-            if ner_total_samples > 0 else 0.0
-        )
+        precision = ner_total_correct_entities / ner_total_pred_entities if ner_total_pred_entities > 0 else 0.0
+        recall = ner_total_correct_entities / ner_total_gold_entities if ner_total_gold_entities > 0 else 0.0
+        f1 = 2 * precision * recall / (precision + recall) if (precision + recall) > 0 else 0.0
+        sample_exact = ner_total_sample_exact / ner_total_samples if ner_total_samples > 0 else 0.0
 
         extra_metrics = {
             "entity_precision": float(precision),

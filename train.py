@@ -18,13 +18,6 @@ def build_ner_class_weights(
     weight_b: float = 2.0,
     weight_i: float = 2.5,
 ) -> torch.Tensor:
-    """
-    Construye pesos por clase para NER.
-
-    - O pesa menos para evitar que el modelo colapse a O.
-    - B-* e I-* pesan más.
-    - <PAD> se ignora con peso 0.
-    """
     weights = torch.ones(len(tag2idx), dtype=torch.float32)
 
     for tag, idx in tag2idx.items():
@@ -43,11 +36,6 @@ def build_ner_class_weights(
 
 
 def build_valid_transition_mask(tag2idx: dict[str, int]) -> torch.Tensor:
-    """
-    Máscara BIO de transiciones válidas entre etiquetas.
-
-    valid[prev, curr] = 1 si la transición prev -> curr es válida.
-    """
     idx2tag = {idx: tag for tag, idx in tag2idx.items()}
     n = len(tag2idx)
     valid = torch.zeros((n, n), dtype=torch.float32)
@@ -71,21 +59,14 @@ def build_valid_transition_mask(tag2idx: dict[str, int]) -> torch.Tensor:
             is_valid = False
 
             if curr_tag == "<PAD>":
-                # Permitimos <PAD> después de cualquier etiqueta válida.
                 is_valid = True
             elif curr_tag == "O":
                 is_valid = True
             elif curr_prefix == "B":
-                # Un B-* puede empezar después de casi cualquier cosa.
                 is_valid = True
             elif curr_prefix == "I":
-                # I-X solo puede seguir a B-X o I-X.
                 if prev_prefix in {"B", "I"} and prev_label == curr_label:
                     is_valid = True
-                else:
-                    is_valid = False
-            else:
-                is_valid = False
 
             valid[prev_idx, curr_idx] = 1.0 if is_valid else 0.0
 
@@ -100,11 +81,6 @@ class NERStructureAwareLoss(nn.Module):
     2. Penalización por omitir entidades (gold entity -> prob alta en O)
     3. Penalización por falsos positivos (gold O -> prob alta en entidad)
     4. Penalización por transiciones BIO inválidas
-
-    Esto corrige mejor los errores observados:
-    - entidades inventadas
-    - spans mal cerrados
-    - I-* sin B-* previo
     """
 
     def __init__(
@@ -128,17 +104,14 @@ class NERStructureAwareLoss(nn.Module):
         else:
             self.class_weights = None
 
-        valid_transition_mask = build_valid_transition_mask(tag2idx)
-        self.register_buffer("valid_transition_mask", valid_transition_mask)
+        self.register_buffer(
+            "valid_transition_mask",
+            build_valid_transition_mask(tag2idx),
+        )
 
     def forward(self, logits: torch.Tensor, labels: torch.Tensor) -> torch.Tensor:
-        """
-        logits: [B, T, C]
-        labels: [B, T]
-        """
         num_classes = logits.size(-1)
 
-        # 1) CE ponderada
         ce_loss = F.cross_entropy(
             logits.view(-1, num_classes),
             labels.view(-1),
@@ -147,34 +120,29 @@ class NERStructureAwareLoss(nn.Module):
         )
 
         probs = torch.softmax(logits, dim=-1)
+        p_o = probs[..., self.o_idx]
 
         valid_mask = labels != self.pad_idx
         gold_entity_mask = valid_mask & (labels != self.o_idx)
         gold_o_mask = valid_mask & (labels == self.o_idx)
 
-        # 2) Penaliza omitir entidad real como O
-        p_o = probs[..., self.o_idx]
         if gold_entity_mask.any():
             miss_penalty = -torch.log((1.0 - p_o[gold_entity_mask]).clamp(min=1e-8)).mean()
         else:
             miss_penalty = torch.zeros((), device=logits.device, dtype=logits.dtype)
 
-        # 3) Penaliza inventar entidad donde gold es O
         p_entity = 1.0 - p_o
         if gold_o_mask.any():
             fp_penalty = -torch.log((1.0 - p_entity[gold_o_mask]).clamp(min=1e-8)).mean()
         else:
             fp_penalty = torch.zeros((), device=logits.device, dtype=logits.dtype)
 
-        # 4) Penaliza transiciones inválidas usando probabilidades suaves
-        # expected_invalid_mass = sum_{prev,curr inválidos} p(prev)*p(curr)
         if logits.size(1) > 1:
-            prev_probs = probs[:, :-1, :]   # [B, T-1, C]
-            curr_probs = probs[:, 1:, :]    # [B, T-1, C]
+            prev_probs = probs[:, :-1, :]
+            curr_probs = probs[:, 1:, :]
+            pair_probs = prev_probs.unsqueeze(-1) * curr_probs.unsqueeze(-2)
 
-            pair_probs = prev_probs.unsqueeze(-1) * curr_probs.unsqueeze(-2)  # [B,T-1,C,C]
-            invalid_mask = 1.0 - self.valid_transition_mask  # [C,C]
-
+            invalid_mask = 1.0 - self.valid_transition_mask
             invalid_mass = (pair_probs * invalid_mask.unsqueeze(0).unsqueeze(0)).sum(dim=(-1, -2))
 
             transition_valid_mask = valid_mask[:, 1:] & valid_mask[:, :-1]
@@ -217,7 +185,6 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--print_every", type=int, default=1)
     parser.add_argument("--patience", type=int, default=5)
 
-    # Hiperparámetros de la loss estructurada para NER
     parser.add_argument("--ner_lambda_miss", type=float, default=1.2)
     parser.add_argument("--ner_lambda_fp", type=float, default=1.0)
     parser.add_argument("--ner_lambda_transition", type=float, default=0.8)
@@ -257,7 +224,6 @@ def main() -> None:
 
     if args.task == "sentiment":
         criterion = nn.CrossEntropyLoss()
-        metric_name = "acc"
         selection_metric_name = "acc"
         pad_tag_idx = 0
     else:
@@ -278,8 +244,6 @@ def main() -> None:
             lambda_transition=args.ner_lambda_transition,
         ).to(device)
 
-        # Seguimos mostrando token_acc, pero el mejor modelo se selecciona por entity_f1.
-        metric_name = "token_acc"
         selection_metric_name = "entity_f1"
 
     optimizer = torch.optim.Adam(
@@ -318,6 +282,7 @@ def main() -> None:
             device=device,
             task=args.task,
             pad_tag_idx=pad_tag_idx,
+            idx2tag=metadata.get("idx2tag"),
         )
 
         val_loss, val_metric, val_extra_metrics = val_step(
@@ -330,6 +295,7 @@ def main() -> None:
             device=device,
             task=args.task,
             pad_tag_idx=pad_tag_idx,
+            idx2tag=metadata.get("idx2tag"),
         )
 
         if args.task == "sentiment":
@@ -356,8 +322,8 @@ def main() -> None:
                     f"Epoch {epoch + 1}/{args.epochs}\n"
                     f"Train Loss: {train_loss:.4f}\n"
                     f"Val Loss: {val_loss:.4f}\n"
-                    f"Train {metric_name}: {train_metric:.4f}\n"
-                    f"Val {metric_name}: {val_metric:.4f}"
+                    f"Train acc: {train_metric:.4f}\n"
+                    f"Val acc: {val_metric:.4f}"
                 )
             else:
                 print(
@@ -371,7 +337,9 @@ def main() -> None:
                     f"Train entity_precision: {train_extra_metrics['entity_precision']:.4f}\n"
                     f"Val entity_precision: {val_extra_metrics['entity_precision']:.4f}\n"
                     f"Train entity_recall: {train_extra_metrics['entity_recall']:.4f}\n"
-                    f"Val entity_recall: {val_extra_metrics['entity_recall']:.4f}"
+                    f"Val entity_recall: {val_extra_metrics['entity_recall']:.4f}\n"
+                    f"Train sample_exact_match: {train_extra_metrics['sample_exact_match']:.4f}\n"
+                    f"Val sample_exact_match: {val_extra_metrics['sample_exact_match']:.4f}"
                 )
 
         if val_loss < best_val_loss:
