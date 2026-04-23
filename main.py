@@ -215,6 +215,22 @@ def decode_bio_predictions(
     return entities
 
 
+def normalize_entities_for_compare(entities: List[Dict[str, str]]) -> List[Dict[str, str]]:
+    normalized = []
+    seen = set()
+
+    for entity in entities:
+        text = str(entity["text"]).strip()
+        label = str(entity["label"]).strip().upper()
+        key = (text, label)
+        if key not in seen:
+            normalized.append({"text": text, "label": label})
+            seen.add(key)
+
+    normalized.sort(key=lambda x: (x["label"], x["text"]))
+    return normalized
+
+
 def validate_record(record: Dict[str, Any], index: int) -> None:
     required_fields = ["text", "home_team", "away_team"]
     missing_fields = [field for field in required_fields if field not in record]
@@ -288,11 +304,56 @@ def build_generation_context(
     return record["text"]
 
 
-def save_json(path: str, data: List[Dict[str, Any]]) -> None:
+def save_json(path: str, data: Dict[str, Any]) -> None:
     output_path = Path(path)
     output_path.parent.mkdir(parents=True, exist_ok=True)
     with open(output_path, "w", encoding="utf-8") as file:
         json.dump(data, file, ensure_ascii=False, indent=2)
+
+
+def build_pipeline_summary(records: List[Dict[str, Any]]) -> Dict[str, Any]:
+    summary: Dict[str, Any] = {
+        "num_records": len(records),
+        "sentiment_metrics": None,
+        "ner_metrics": None,
+    }
+
+    sentiment_gold = 0
+    sentiment_correct = 0
+
+    ner_gold = 0
+    ner_exact_match = 0
+
+    for record in records:
+        pipeline_outputs = record.get("pipeline_outputs", {})
+
+        if "sentiment" in record:
+            sentiment_gold += 1
+            if int(record["sentiment"]) == int(pipeline_outputs["predicted_sentiment"]):
+                sentiment_correct += 1
+
+        if "entities" in record and isinstance(record["entities"], list):
+            ner_gold += 1
+
+            gold_entities = normalize_entities_for_compare(record["entities"])
+            pred_entities = normalize_entities_for_compare(pipeline_outputs["predicted_entities"])
+
+            if gold_entities == pred_entities:
+                ner_exact_match += 1
+
+    if sentiment_gold > 0:
+        summary["sentiment_metrics"] = {
+            "num_samples_with_gold": sentiment_gold,
+            "accuracy": sentiment_correct / sentiment_gold,
+        }
+
+    if ner_gold > 0:
+        summary["ner_metrics"] = {
+            "num_samples_with_gold": ner_gold,
+            "entity_exact_match": ner_exact_match / ner_gold,
+        }
+
+    return summary
 
 
 def run_pipeline(
@@ -311,15 +372,18 @@ def run_pipeline(
 
     for index, record in enumerate(records):
         validate_record(record, index)
+        record = dict(record)
 
-        # busca la foto y pega el resultado del texto
         match_id = record.get("match_id")
+        image_score = None
+
         if match_id is not None:
             for ext in [".png", ".jpg", ".jpeg"]:
                 ruta_img = data_dir / f"{match_id}{ext}"
                 if ruta_img.exists():
                     try:
                         score = read_score(str(ruta_img), verbose=False, reader=ocr_reader)
+                        image_score = score
                         record["text"] += f" The scoreboard image shows a score of {score}."
                         print(f"Imagen {ruta_img.name} procesada: {score}")
                     except Exception as e:
@@ -359,6 +423,7 @@ def run_pipeline(
         output_record["generated_alert"] = generated_alert
         output_record["pipeline_mode"] = mode
         output_record["pipeline_outputs"] = {
+            "image_score": image_score,
             "predicted_sentiment": sentiment_prediction.value,
             "predicted_sentiment_label": sentiment_to_label(sentiment_prediction.value),
             "predicted_sentiment_confidence": sentiment_prediction.confidence,
@@ -372,6 +437,18 @@ def run_pipeline(
             "used_entities": used_entities,
             "used_entities_source": entities_source,
         }
+
+        if "sentiment" in record:
+            output_record["pipeline_outputs"]["sentiment_correct"] = (
+                int(record["sentiment"]) == int(sentiment_prediction.value)
+            )
+
+        if "entities" in record and isinstance(record["entities"], list):
+            output_record["pipeline_outputs"]["ner_exact_match"] = (
+                normalize_entities_for_compare(record["entities"]) ==
+                normalize_entities_for_compare(ner_prediction.entities)
+            )
+
         enriched_records.append(output_record)
 
         print(
@@ -477,7 +554,21 @@ def main() -> None:
         max_new_tokens=args.max_new_tokens,
     )
 
-    save_json(args.output_path, outputs)
+    final_output = {
+        "config": {
+            "data_path": args.data_path,
+            "mode": args.mode,
+            "device": str(device),
+            "sentiment_checkpoint": args.sentiment_checkpoint,
+            "ner_checkpoint": args.ner_checkpoint,
+            "generator_model_name": args.generator_model_name,
+            "max_new_tokens": args.max_new_tokens,
+        },
+        "summary": build_pipeline_summary(outputs),
+        "predictions": outputs,
+    }
+
+    save_json(args.output_path, final_output)
     print(f"Saved pipeline outputs to: {args.output_path}")
 
 
