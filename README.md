@@ -292,38 +292,49 @@ DETALLES IMPORTANTES
 
 --------------------------------------------------
 
-PROBLEMAS FRECUENTES
+USO
 
-Dependencias:
-pip install -r requirements.txt
+1. Entrenar Sentiment:
+python train.py \
+  --task sentiment \
+  --data_path train.json \
+  --model_name bilstm \
+  --epochs 15 \
+  --batch_size 8 \
+  --save_path models/sentiment_bilstm.pt
 
-Errores de datos:
-- falta sentiment → gold_sentiment falla
-- falta entities → gold_ner falla
 
-OCR no encuentra imagen:
-verificar data/{match_id}.png
+2. Entrenar NER:
+python train.py \
+  --task ner \
+  --data_path train.json \
+  --model_name bilstm \
+  --epochs 15 \
+  --batch_size 8 \
+  --save_path models/ner_bilstm_structured.pt \
+  --ner_lambda_miss 1.2 \
+  --ner_lambda_fp 1.0 \
+  --ner_lambda_transition 0.8 \
+  --ner_weight_o 1.0 \
+  --ner_weight_b 2.0 \
+  --ner_weight_i 2.5
 
-Generación lenta:
-probablemente CPU
+3. Evaluar Sentiment:
+python evaluate.py \
+  --checkpoint models/sentiment_bilstm.pt \
+  --data_path test.json \
+  --output_path outputs/sentiment.json
 
-token_accuracy alto pero mal NER:
-mirar entity_f1
+4. Evaluar NER:
+python evaluate.py \
+  --checkpoint models/ner_bilstm_structured.pt \
+  --data_path test.json \
+  --output_path outputs/ner.json
 
---------------------------------------------------
-
-RESUMEN
-
-El sistema:
-1. entrena sentiment y NER
-2. opcionalmente usa OCR
-3. combina todo en main.py
-4. usa LLM para generar alertas
-5. produce JSON con:
-   - métricas
-   - predicciones
-   - entidades
-   - alerta final
-
-Métrica clave en NER:
-entity_f1
+5. Ejecutar Pipeline Completo:
+python main.py \
+  --data-path test.json \
+  --sentiment-checkpoint models/sentiment_bilstm.pt \
+  --ner-checkpoint models/ner_bilstm_structured.pt \
+  --mode predicted \
+  --output-path outputs/pipeline.json
